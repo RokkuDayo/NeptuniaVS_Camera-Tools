@@ -16,8 +16,10 @@ Keybinds are in the image bundled with this ZIP file, but feel free to change th
 If disabling the HUD doesn't work, open and close the teleport menu (R on the keyboard / SELECT (Playstation) / View Button(Xbox)) while in the hub.
 
 Current problems:
-Freezing the world also freezes some lighting components related to the character, if you want to just roam around with the free camera, I recommend NOT pausing the world.
-Depth of field breaks when the camera is decoupled, so it is disabled automatically when you engage the free camera.
+
+-Freezing the world also freezes some lighting components related to the character, if you want to just roam around with the free camera, I recommend NOT pausing the world.
+
+-Depth of field breaks when the camera is decoupled, so it is disabled automatically when you engage the free camera.
 
 Made by Arthur Lopes (https://www.youtube.com/channel/UCZ9Z9baROsgz8IcUnD4H42w)
 Huge thanks to Stephen Chapman (https://www.youtube.com/channel/UCqfqH-wq12WOm4QG4KiRisw) for making his in-depth tutorials on Cheat Engine.
