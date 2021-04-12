@@ -17,9 +17,15 @@ If disabling the HUD doesn't work, open and close the teleport menu (R on the ke
 
 Current problems:
 
--Freezing the world also freezes some lighting components related to the character. If you want to just roam around with the free camera, I recommend NOT pausing the world.
+ - Freezing the world will also freeze some rendering elements related to characters and enemies (fresnel and some parts of the rim-lighting), which makes things look off if you moved the camera too much in relation to the position at the moment you froze everything. I'll be looking further into this when I have more time.
 
--Depth of field breaks when the camera is decoupled, so it is disabled automatically when you engage the free camera.
+- The depth of field effect breaks when flying the camera around, so I disabled it whenever the free camera is engaged. This has a lower priority than the aforementioned issue but is still a problem nonetheless.
+
+- Pausing the world also seems to mess with the game's temporal anti-aliasing solution. It is hard for me to pinpoint what exactly is happening but there is no denying that the game gets more aliased when frozen.
+
+- Freezing the world messes up the temporal anti-aliasing somehow, hard to pinpoint what exactly is the source of the problem but there is no denying that the game gets aliased when it is frozen.
+
+- Turning this into something easier to use than a cheat table would be nice, but getting this working properly is the top priority.
 
 
 Made by Arthur Lopes (https://www.youtube.com/channel/UCZ9Z9baROsgz8IcUnD4H42w)
