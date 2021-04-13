@@ -239,6 +239,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1122</ID>
               <Description>"X"</Description>
+              <LastState Value="-102.1315689" RealAddress="21251972C30"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+490</Address>
@@ -246,6 +247,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1123</ID>
               <Description>"Z"</Description>
+              <LastState Value="11.07025051" RealAddress="21251972C34"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+494</Address>
@@ -253,6 +255,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1124</ID>
               <Description>"Y"</Description>
+              <LastState Value="-9.043469429" RealAddress="21251972C38"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+498</Address>
@@ -260,6 +263,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1125</ID>
               <Description>"Pitch"</Description>
+              <LastState Value="0.03854564205" RealAddress="21251972C40"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4A0</Address>
@@ -267,6 +271,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1126</ID>
               <Description>"Yaw"</Description>
+              <LastState Value="1.543207645" RealAddress="21251972C44"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4A4</Address>
@@ -274,6 +279,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1127</ID>
               <Description>"Roll"</Description>
+              <LastState Value="0.1499999911" RealAddress="21251972C48"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4A8</Address>
@@ -281,6 +287,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>2570</ID>
               <Description>"Zoom"</Description>
+              <LastState Value="0.5634999275" RealAddress="21251972C60"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4C0</Address>
@@ -288,6 +295,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>2571</ID>
               <Description>"DOF (Near Plane)"</Description>
+              <LastState Value="500" RealAddress="21251972CC4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+524</Address>
@@ -295,6 +303,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>2572</ID>
               <Description>"DOF (Far Plane)"</Description>
+              <LastState Value="508" RealAddress="21251972CC8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+528</Address>
@@ -302,6 +311,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1129</ID>
               <Description>"FOV"</Description>
+              <LastState Value="11.73823738" RealAddress="21251972C64"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4C4</Address>
@@ -314,7 +324,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
       <ID>2424</ID>
       <Description>"Disable HUD"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState/>
+      <LastState Activated="1"/>
       <Color>800040</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -371,14 +381,14 @@ NeptuniaVirtualStars.exe+7A4115: 48 89 84 24 38 01 00 00  - mov [rsp+00000138],r
           <ID>1170</ID>
           <Description>"HUD NOPs"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>800080</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1157</ID>
               <Description>"NOP Pop-up Inreactive Objects"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
@@ -424,7 +434,7 @@ NeptuniaVirtualStars.exe+3A9D70: CC                       - int 3
             <CheatEntry>
               <ID>1166</ID>
               <Description>"NOP Enemy - Total Damage"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+3B03A4,F3 0F 11 73 08)
@@ -469,7 +479,7 @@ NeptuniaVirtualStars.exe+3B0312: CC                       - int 3
             <CheatEntry>
               <ID>1167</ID>
               <Description>"NOP Enemy - Target Indicator"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+3B0554,F3 0F 11 73 08)
@@ -514,7 +524,7 @@ NeptuniaVirtualStars.exe+3B04C2: CC                       - int 3
             <CheatEntry>
               <ID>1168</ID>
               <Description>"NOP Enemy - Health Bar"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+3B0474,F3 0F 11 73 08)
@@ -563,7 +573,7 @@ NeptuniaVirtualStars.exe+3B03E2: CC                       - int 3
       <ID>1134</ID>
       <Description>"Decouple camera and engage fly mode"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState/>
+      <LastState Activated="1"/>
       <Color>003366</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>// Decouple camera in the X,Z and Y axis.
@@ -635,7 +645,7 @@ NeptuniaVirtualStars.exe+5A4568: CC                       - int 3
           <ID>1136</ID>
           <Description>"Free Camera Script"</Description>
           <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>003366</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>globalAlloc(speedModifier,8)
@@ -757,7 +767,7 @@ function checkKeys()
   end
   --Zoom (Reset)
   if isKeyPressed(VK_SHIFT) and isKeyPressed(VK_F4) then
-   writeFloat("[pCamStruct]+4C0", 0.001)
+   writeFloat("[pCamStruct]+4C0", 0.35)
   end
   --Roll-- Left
   if isKeyPressed(VK_F5) then
@@ -829,7 +839,7 @@ timer_setEnabled(t, false)
               <ID>2563</ID>
               <Description>"Set Initial Free Cam Values"</Description>
               <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
-              <LastState/>
+              <LastState Activated="1"/>
               <Color>003366</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>//Taken from https://fearlessrevolution.com/viewtopic.php?t=12627
@@ -867,7 +877,7 @@ writeFloat("[pCamStruct]+498", camx - (cosy * 5))
 writeFloat("[pCamStruct]+490", camy - (siny * 5))
 writeFloat("[pCamStruct]+524", 500)
 writeFloat("[pCamStruct]+528", 500)
-writeFloat("[pCamStruct]+4C0", 0.001)
+writeFloat("[pCamStruct]+4C0", 0.25)
 
 end
 
@@ -887,6 +897,7 @@ end
                 <CheatEntry>
                   <ID>2565</ID>
                   <Description>"DOF (Far Plane)"</Description>
+                  <LastState Value="508" RealAddress="21251972CC8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+528</Address>
@@ -894,6 +905,7 @@ end
                 <CheatEntry>
                   <ID>2564</ID>
                   <Description>"DOF (Near Plane)"</Description>
+                  <LastState Value="500" RealAddress="21251972CC4"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+524</Address>
@@ -901,6 +913,7 @@ end
                 <CheatEntry>
                   <ID>2566</ID>
                   <Description>"Zoom"</Description>
+                  <LastState Value="0.5634999275" RealAddress="21251972C60"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+4C0</Address>
@@ -908,6 +921,7 @@ end
                 <CheatEntry>
                   <ID>2569</ID>
                   <Description>"Y"</Description>
+                  <LastState Value="-9.043469429" RealAddress="21251972C38"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+498</Address>
@@ -915,6 +929,7 @@ end
                 <CheatEntry>
                   <ID>2567</ID>
                   <Description>"X"</Description>
+                  <LastState Value="-102.1315689" RealAddress="21251972C30"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+490</Address>
@@ -927,14 +942,14 @@ end
           <ID>1152</ID>
           <Description>"Camera NOPs"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>003366</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1133</ID>
               <Description>"NOP Roll"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+5A477E,F3 0F 11 81 A8 04 00 00)
@@ -978,7 +993,7 @@ NeptuniaVirtualStars.exe+5A46DF: CC                       - int 3
             <CheatEntry>
               <ID>2328</ID>
               <Description>"Uncap Pitch"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
@@ -1024,7 +1039,7 @@ NeptuniaVirtualStars.exe+5A12AC: F3 41 0F 59 C0           - mulss xmm0,xmm8
             <CheatEntry>
               <ID>1137</ID>
               <Description>"NOP Zoom"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+5A4185,F3 0F 11 88 C0 04 00 00)
@@ -1067,7 +1082,7 @@ NeptuniaVirtualStars.exe+5A40E6: CC                       - int 3
             <CheatEntry>
               <ID>1151</ID>
               <Description>"NOP FOV"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
@@ -1113,7 +1128,7 @@ NeptuniaVirtualStars.exe+5A48D1: CC                       - int 3
             <CheatEntry>
               <ID>1149</ID>
               <Description>"NOP DOF"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+5A4096,88 82 25 05 00 00 C3 CC)
@@ -1158,7 +1173,7 @@ NeptuniaVirtualStars.exe+5A3FF5: CC                    - int 3
             <CheatEntry>
               <ID>2322</ID>
               <Description>"NOP Automatic DOF Detection"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 assert("NeptuniaVirtualStars.exe"+5A417C,F3 0F 11 80 C0 04 00 00)
@@ -1203,7 +1218,7 @@ NeptuniaVirtualStars.exe+5A40E4: CC                       - int 3
             <CheatEntry>
               <ID>2327</ID>
               <Description>"NOP Character Culling"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
@@ -1533,6 +1548,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2551</ID>
               <Description>"Rim Light X"</Description>
+              <LastState Value="0.9576639533" RealAddress="21251975C50"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34B0</Address>
@@ -1540,6 +1556,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2553</ID>
               <Description>"Rim Light Z"</Description>
+              <LastState Value="-0.1107719466" RealAddress="21251975C54"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34B4</Address>
@@ -1547,6 +1564,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2552</ID>
               <Description>"Rim Light Y"</Description>
+              <LastState Value="0.2657241225" RealAddress="21251975C58"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34B8</Address>
@@ -1554,6 +1572,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2554</ID>
               <Description>"Side Light (?) X"</Description>
+              <LastState Value="0.2878766656" RealAddress="21251975C70"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34D0</Address>
@@ -1561,6 +1580,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2556</ID>
               <Description>"Side Light (?) Z"</Description>
+              <LastState Value="0.3767986" RealAddress="21251975C74"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34D4</Address>
@@ -1568,6 +1588,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2555</ID>
               <Description>"Side Light (?) Y"</Description>
+              <LastState Value="-0.8804262877" RealAddress="21251975C78"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34D8</Address>
@@ -21222,7 +21243,7 @@ NeptuniaVirtualStars.exe+766FCC: E8 14 6C 8D FF           - call NeptuniaVirtual
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>speedModifier</Name>
-      <Address>2189E7C0000</Address>
+      <Address>2138E580000</Address>
     </SymbolEntry>
     <SymbolEntry>
       <Name>base</Name>
