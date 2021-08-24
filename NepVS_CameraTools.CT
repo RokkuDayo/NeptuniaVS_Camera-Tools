@@ -17,11 +17,11 @@
           <Color>0606A2</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+3A2469,48 C7 43 20 00 00 80 3F)
-define(hudStruct,"NeptuniaVirtualStars.exe"+3A2469)
+assert("NeptuniaVirtualStars.exe"+3A27B9,48 C7 43 20 00 00 80 3F)
+define(hudStruct,"NeptuniaVirtualStars.exe"+3A27B9)
 registersymbol(hudStruct)
 
-alloc(hudStructMem,$1000,"NeptuniaVirtualStars.exe"+3A2469)
+alloc(hudStructMem,$1000,"NeptuniaVirtualStars.exe"+3A27B9)
 registersymbol(hudStructMem)
 
 define(pHudStruct,hudStructMem+100)
@@ -92,11 +92,11 @@ NeptuniaVirtualStars.exe+3A23EE: CC                       - int 3
               <LastState Activated="1"/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+493584,F3 0F 11 7F 08)
-define(radarInj,"NeptuniaVirtualStars.exe"+493584)
+assert("NeptuniaVirtualStars.exe"+493CD4,F3 0F 11 7F 08)
+define(radarInj,"NeptuniaVirtualStars.exe"+493CD4)
 registersymbol(radarInj)
 
-alloc(radarInjMem,$1000,"NeptuniaVirtualStars.exe"+493584)
+alloc(radarInjMem,$1000,"NeptuniaVirtualStars.exe"+493CD4)
 registersymbol(radarInjMem)
 
 define(pRadarInj,radarInjMem+100)
@@ -169,11 +169,11 @@ NeptuniaVirtualStars.exe+493513: 48 83 C4 70              - add rsp,70
           <Color>0606A2</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A3A6E,F3 0F 10 81 A0 04 00 00)
-define(camStruct,"NeptuniaVirtualStars.exe"+5A3A6E)
+assert("NeptuniaVirtualStars.exe"+5A41BE,F3 0F 10 81 A0 04 00 00)
+define(camStruct,"NeptuniaVirtualStars.exe"+5A41BE)
 registersymbol(camStruct)
 
-alloc(camStructMem,$1000,"NeptuniaVirtualStars.exe"+5A3A6E)
+alloc(camStructMem,$1000,"NeptuniaVirtualStars.exe"+5A41BE)
 registersymbol(camStructMem)
 
 define(pCamStruct,camStructMem+100)
@@ -239,7 +239,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1122</ID>
               <Description>"X"</Description>
-              <LastState Value="-102.1315689" RealAddress="21251972C30"/>
+              <LastState Value="0.01594625786" RealAddress="217EB7C54A0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+490</Address>
@@ -247,7 +247,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1123</ID>
               <Description>"Z"</Description>
-              <LastState Value="11.07025051" RealAddress="21251972C34"/>
+              <LastState Value="1.283965707" RealAddress="217EB7C54A4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+494</Address>
@@ -255,7 +255,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1124</ID>
               <Description>"Y"</Description>
-              <LastState Value="-9.043469429" RealAddress="21251972C38"/>
+              <LastState Value="0.37702775" RealAddress="217EB7C54A8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+498</Address>
@@ -263,7 +263,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1125</ID>
               <Description>"Pitch"</Description>
-              <LastState Value="0.03854564205" RealAddress="21251972C40"/>
+              <LastState Value="0" RealAddress="217EB7C54B0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4A0</Address>
@@ -271,7 +271,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1126</ID>
               <Description>"Yaw"</Description>
-              <LastState Value="1.543207645" RealAddress="21251972C44"/>
+              <LastState Value="0" RealAddress="217EB7C54B4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4A4</Address>
@@ -279,7 +279,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1127</ID>
               <Description>"Roll"</Description>
-              <LastState Value="0.1499999911" RealAddress="21251972C48"/>
+              <LastState Value="0" RealAddress="217EB7C54B8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4A8</Address>
@@ -287,7 +287,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>2570</ID>
               <Description>"Zoom"</Description>
-              <LastState Value="0.5634999275" RealAddress="21251972C60"/>
+              <LastState Value="0.6000000238" RealAddress="217EB7C54D0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4C0</Address>
@@ -295,7 +295,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>2571</ID>
               <Description>"DOF (Near Plane)"</Description>
-              <LastState Value="500" RealAddress="21251972CC4"/>
+              <LastState Value="3.587324069E-43" RealAddress="217EB7C5534"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+524</Address>
@@ -303,7 +303,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>2572</ID>
               <Description>"DOF (Far Plane)"</Description>
-              <LastState Value="508" RealAddress="21251972CC8"/>
+              <LastState Value="0.5" RealAddress="217EB7C5538"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+528</Address>
@@ -311,7 +311,7 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
             <CheatEntry>
               <ID>1129</ID>
               <Description>"FOV"</Description>
-              <LastState Value="11.73823738" RealAddress="21251972C64"/>
+              <LastState Value="45" RealAddress="217EB7C54D4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+4C4</Address>
@@ -324,19 +324,19 @@ NeptuniaVirtualStars.exe+5A39CF: CC                       - int 3
       <ID>2424</ID>
       <Description>"Disable HUD"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <Color>800040</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+7A40DC,FF 50 38 48 8B 05 92 FC E0 0A)
+assert("NeptuniaVirtualStars.exe"+7A48BC,FF 50 38 48 8B 05 F2 24 E1 0A)
 
-"NeptuniaVirtualStars.exe"+7A40DC:
+"NeptuniaVirtualStars.exe"+7A48BC:
   db 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+7A40DC:
+"NeptuniaVirtualStars.exe"+7A48BC:
   db FF 50 38
 
 {
@@ -381,25 +381,25 @@ NeptuniaVirtualStars.exe+7A4115: 48 89 84 24 38 01 00 00  - mov [rsp+00000138],r
           <ID>1170</ID>
           <Description>"HUD NOPs"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>800080</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1157</ID>
               <Description>"NOP Pop-up Inreactive Objects"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+3A9DEB,48 C7 43 08 00 00 80 3F 48 C7 43 10 00 00 20 41 0F)
+assert("NeptuniaVirtualStars.exe"+3AA13B,48 C7 43 08 00 00 80 3F 48 C7 43 10 00 00 20 41 0F)
 
-"NeptuniaVirtualStars.exe"+3A9DEB:
+"NeptuniaVirtualStars.exe"+3AA13B:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+3A9DEB:
+"NeptuniaVirtualStars.exe"+3AA13B:
   db 48 C7 43 08 00 00 80 3F
 
 {
@@ -434,17 +434,17 @@ NeptuniaVirtualStars.exe+3A9D70: CC                       - int 3
             <CheatEntry>
               <ID>1166</ID>
               <Description>"NOP Enemy - Total Damage"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+3B03A4,F3 0F 11 73 08)
+assert("NeptuniaVirtualStars.exe"+3B06F4,F3 0F 11 73 08)
 
-"NeptuniaVirtualStars.exe"+3B03A4:
+"NeptuniaVirtualStars.exe"+3B06F4:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+3B03A4:
+"NeptuniaVirtualStars.exe"+3B06F4:
   db F3 0F 11 73 08
 
 {
@@ -479,17 +479,17 @@ NeptuniaVirtualStars.exe+3B0312: CC                       - int 3
             <CheatEntry>
               <ID>1167</ID>
               <Description>"NOP Enemy - Target Indicator"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+3B0554,F3 0F 11 73 08)
+assert("NeptuniaVirtualStars.exe"+3B08A4,F3 0F 11 73 08)
 
-"NeptuniaVirtualStars.exe"+3B0554:
+"NeptuniaVirtualStars.exe"+3B08A4:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+3B0554:
+"NeptuniaVirtualStars.exe"+3B08A4:
   db F3 0F 11 73 08
 
 {
@@ -524,17 +524,17 @@ NeptuniaVirtualStars.exe+3B04C2: CC                       - int 3
             <CheatEntry>
               <ID>1168</ID>
               <Description>"NOP Enemy - Health Bar"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+3B0474,F3 0F 11 73 08)
+assert("NeptuniaVirtualStars.exe"+3B07C4,F3 0F 11 73 08)
 
-"NeptuniaVirtualStars.exe"+3B0474:
+"NeptuniaVirtualStars.exe"+3B07C4:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+3B0474:
+"NeptuniaVirtualStars.exe"+3B07C4:
   db F3 0F 11 73 08
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+3B03C4
@@ -573,28 +573,28 @@ NeptuniaVirtualStars.exe+3B03E2: CC                       - int 3
       <ID>1134</ID>
       <Description>"Decouple camera and engage fly mode"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <Color>003366</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>// Decouple camera in the X,Z and Y axis.
 
 [ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A45F9,F3 0F 11 80 90 04 00 00)
+assert("NeptuniaVirtualStars.exe"+5A4D49,F3 0F 11 80 90 04 00 00)
 
-"NeptuniaVirtualStars.exe"+5A45F9:
+"NeptuniaVirtualStars.exe"+5A4D49:
   db 90 90 90 90 90 90 90 90
-"NeptuniaVirtualStars.exe"+5A4601:
+"NeptuniaVirtualStars.exe"+5A4D51:
   db 90 90 90 90 90 90 90 90
-"NeptuniaVirtualStars.exe"+5A4609:
+"NeptuniaVirtualStars.exe"+5A4D59:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5A45F9:
+"NeptuniaVirtualStars.exe"+5A4D49:
   db F3 0F 11 80 90 04 00 00
-"NeptuniaVirtualStars.exe"+5A4601:
+"NeptuniaVirtualStars.exe"+5A4D51:
   db F3 0F 11 88 94 04 00 00
-"NeptuniaVirtualStars.exe"+5A4609:
+"NeptuniaVirtualStars.exe"+5A4D59:
   db F3 0F 11 90 98 04 00 00
 
 unregistersymbol(INJECT)
@@ -645,7 +645,7 @@ NeptuniaVirtualStars.exe+5A4568: CC                       - int 3
           <ID>1136</ID>
           <Description>"Free Camera Script"</Description>
           <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>003366</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>globalAlloc(speedModifier,8)
@@ -839,7 +839,7 @@ timer_setEnabled(t, false)
               <ID>2563</ID>
               <Description>"Set Initial Free Cam Values"</Description>
               <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Activated="1"/>
+              <LastState/>
               <Color>003366</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>//Taken from https://fearlessrevolution.com/viewtopic.php?t=12627
@@ -897,7 +897,7 @@ end
                 <CheatEntry>
                   <ID>2565</ID>
                   <Description>"DOF (Far Plane)"</Description>
-                  <LastState Value="508" RealAddress="21251972CC8"/>
+                  <LastState Value="0.5" RealAddress="217EB7C5538"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+528</Address>
@@ -905,7 +905,7 @@ end
                 <CheatEntry>
                   <ID>2564</ID>
                   <Description>"DOF (Near Plane)"</Description>
-                  <LastState Value="500" RealAddress="21251972CC4"/>
+                  <LastState Value="3.587324069E-43" RealAddress="217EB7C5534"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+524</Address>
@@ -913,7 +913,7 @@ end
                 <CheatEntry>
                   <ID>2566</ID>
                   <Description>"Zoom"</Description>
-                  <LastState Value="0.5634999275" RealAddress="21251972C60"/>
+                  <LastState Value="0.6000000238" RealAddress="217EB7C54D0"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+4C0</Address>
@@ -921,7 +921,7 @@ end
                 <CheatEntry>
                   <ID>2569</ID>
                   <Description>"Y"</Description>
-                  <LastState Value="-9.043469429" RealAddress="21251972C38"/>
+                  <LastState Value="0.37702775" RealAddress="217EB7C54A8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+498</Address>
@@ -929,7 +929,7 @@ end
                 <CheatEntry>
                   <ID>2567</ID>
                   <Description>"X"</Description>
-                  <LastState Value="-102.1315689" RealAddress="21251972C30"/>
+                  <LastState Value="0.01594625786" RealAddress="217EB7C54A0"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
                   <Address>[pCamStruct]+490</Address>
@@ -942,23 +942,23 @@ end
           <ID>1152</ID>
           <Description>"Camera NOPs"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>003366</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1133</ID>
               <Description>"NOP Roll"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A477E,F3 0F 11 81 A8 04 00 00)
+assert("NeptuniaVirtualStars.exe"+5A4ECE,F3 0F 11 81 A8 04 00 00)
 //-Disable
-"NeptuniaVirtualStars.exe"+5A477E:
+"NeptuniaVirtualStars.exe"+5A4ECE:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
-"NeptuniaVirtualStars.exe"+5A477E:
+"NeptuniaVirtualStars.exe"+5A4ECE:
   db F3 0F 11 81 A8 04 00 00
 
 {
@@ -993,18 +993,18 @@ NeptuniaVirtualStars.exe+5A46DF: CC                       - int 3
             <CheatEntry>
               <ID>2328</ID>
               <Description>"Uncap Pitch"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+5A132E,F3 41 0F 59 F3)
+assert("NeptuniaVirtualStars.exe"+5A1A7E,F3 41 0F 59 F3)
 
-"NeptuniaVirtualStars.exe"+5A132E:
+"NeptuniaVirtualStars.exe"+5A1A7E:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5A132E:
+"NeptuniaVirtualStars.exe"+5A1A7E:
   db F3 41 0F 59 F3
 
 {
@@ -1039,15 +1039,15 @@ NeptuniaVirtualStars.exe+5A12AC: F3 41 0F 59 C0           - mulss xmm0,xmm8
             <CheatEntry>
               <ID>1137</ID>
               <Description>"NOP Zoom"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A4185,F3 0F 11 88 C0 04 00 00)
-"NeptuniaVirtualStars.exe"+5A4185:
+assert("NeptuniaVirtualStars.exe"+5A48D5,F3 0F 11 88 C0 04 00 00)
+"NeptuniaVirtualStars.exe"+5A48D5:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
-"NeptuniaVirtualStars.exe"+5A4185:
+"NeptuniaVirtualStars.exe"+5A48D5:
   db F3 0F 11 88 C0 04 00 00
 
 {
@@ -1082,18 +1082,18 @@ NeptuniaVirtualStars.exe+5A40E6: CC                       - int 3
             <CheatEntry>
               <ID>1151</ID>
               <Description>"NOP FOV"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+5A496D,F3 0F 11 83 C4 04 00 00)
+assert("NeptuniaVirtualStars.exe"+5A50BD,F3 0F 11 83 C4 04 00 00)
 
-"NeptuniaVirtualStars.exe"+5A496D:
+"NeptuniaVirtualStars.exe"+5A50BD:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5A496D:
+"NeptuniaVirtualStars.exe"+5A50BD:
   db F3 0F 11 83 C4 04 00 00
 
 {
@@ -1128,17 +1128,17 @@ NeptuniaVirtualStars.exe+5A48D1: CC                       - int 3
             <CheatEntry>
               <ID>1149</ID>
               <Description>"NOP DOF"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A4096,88 82 25 05 00 00 C3 CC)
+assert("NeptuniaVirtualStars.exe"+5A47E6,88 82 25 05 00 00 C3 CC)
 
-"NeptuniaVirtualStars.exe"+5A4096:
+"NeptuniaVirtualStars.exe"+5A47E6:
   db 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5A4096:
+"NeptuniaVirtualStars.exe"+5A47E6:
   db 88 82 25 05 00 00
 
 {
@@ -1173,17 +1173,17 @@ NeptuniaVirtualStars.exe+5A3FF5: CC                    - int 3
             <CheatEntry>
               <ID>2322</ID>
               <Description>"NOP Automatic DOF Detection"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A417C,F3 0F 11 80 C0 04 00 00)
+assert("NeptuniaVirtualStars.exe"+5A48CC,F3 0F 11 80 C0 04 00 00)
 
-"NeptuniaVirtualStars.exe"+5A417C:
+"NeptuniaVirtualStars.exe"+5A48CC:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5A417C:
+"NeptuniaVirtualStars.exe"+5A48CC:
   db F3 0F 11 80 C0 04 00 00
 
 {
@@ -1218,17 +1218,17 @@ NeptuniaVirtualStars.exe+5A40E4: CC                       - int 3
             <CheatEntry>
               <ID>2327</ID>
               <Description>"NOP Character Culling"</Description>
-              <LastState Activated="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+50EB30,48 89 43 08 89 43 14 F3 0F 11 73)
-"NeptuniaVirtualStars.exe"+50EB30:
+assert("NeptuniaVirtualStars.exe"+50F280,48 89 43 08 89 43 14 F3 0F 11 73)
+"NeptuniaVirtualStars.exe"+50F280:
   db 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+50EB30:
+"NeptuniaVirtualStars.exe"+50F280:
   db 48 89 43 08 89 43 14
 
 {
@@ -1271,22 +1271,22 @@ NeptuniaVirtualStars.exe+50EAA3: CC                       - int 3
       <Color>646428</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+7917A5,E8 BB 1C 8A FF)
-assert("NeptuniaVirtualStars.exe"+A3A380,E8 DA 5B 5E FF)
+assert("NeptuniaVirtualStars.exe"+791F85,E8 A9 14 8A FF)
+assert("NeptuniaVirtualStars.exe"+A3AB60,E8 C8 53 5E FF)
 
-"NeptuniaVirtualStars.exe"+A3A380:
-  db 90 90 90 90 90
+"NeptuniaVirtualStars.exe"+A3AB60:
+  db E8 C8 53 5E FF
 
-"NeptuniaVirtualStars.exe"+7917A5:
+"NeptuniaVirtualStars.exe"+791F85:
   db 90 90 90 90 90
 
 [DISABLE]
 //Freeze Physics
-"NeptuniaVirtualStars.exe"+A3A380:
-  db E8 DA 5B 5E FF
+"NeptuniaVirtualStars.exe"+A3AB60:
+  db E8 C8 53 5E FF
 //Freeze World
-"NeptuniaVirtualStars.exe"+7917A5:
-  db E8 BB 1C 8A FF
+"NeptuniaVirtualStars.exe"+791F85:
+  db E8 A9 14 8A FF
 
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+7917A5
@@ -1313,7 +1313,8 @@ NeptuniaVirtualStars.exe+7917B3: CC              - int 3
 NeptuniaVirtualStars.exe+7917B4: CC              - int 3 
 NeptuniaVirtualStars.exe+7917B5: CC              - int 3 
 NeptuniaVirtualStars.exe+7917B6: CC              - int 3 
-NeptuniaVirtualStars.exe+7917B7: CC              - int 3 
+NeptuniaVirtualStars.exe+7917B7: CC              - int 3
+FIRST ORIG A3A380
 }
 </AssemblerScript>
       <Hotkeys>
@@ -1338,14 +1339,14 @@ NeptuniaVirtualStars.exe+7917B7: CC              - int 3
       <Color>6B1005</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
-assert(NeptuniaVirtualStars.exe+5A4601,F3 0F 11 88 94 04 00 00 F3)
+assert(NeptuniaVirtualStars.exe+5A4D51,F3 0F 11 88 94 04 00 00 F3)
 
-NeptuniaVirtualStars.exe+5A4601:
+NeptuniaVirtualStars.exe+5A4D51:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
 
-NeptuniaVirtualStars.exe+5A4601:
+NeptuniaVirtualStars.exe+5A4D51:
   db F3 0F 11 88 94 04 00 00
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+5A4601
@@ -1379,18 +1380,18 @@ NeptuniaVirtualStars.exe+5A4569: CC                       - int 3
     <CheatEntry>
       <ID>2343</ID>
       <Description>"Disable Pause on Unfocused (needs to be toggled while in-game)"</Description>
-      <LastState/>
+      <LastState Activated="1"/>
       <Color>6B1005</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+7A5495,FF 50 78 48 89 84 24 A8 00 00 00) // should be unique
+assert("NeptuniaVirtualStars.exe"+7A5C75,FF 50 78 48 89 84 24 A8 00 00 00) // should be unique
 
-"NeptuniaVirtualStars.exe"+7A5495:
+"NeptuniaVirtualStars.exe"+7A5C75:
   db 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+7A5495:
+"NeptuniaVirtualStars.exe"+7A5C75:
   db FF 50 78
 
 {
@@ -1443,15 +1444,15 @@ NeptuniaVirtualStars.exe+7A54BC: 48 8B 84 24 A8 00 00 00  - mov rax,[rsp+000000A
           <ID>2311</ID>
           <Description>"Player Coordinates"</Description>
           <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>000080</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
-assert("NeptuniaVirtualStars.exe"+5025C0,F3 0F 11 89 B0 05 00 00 F3)
-define(playerStruct,"NeptuniaVirtualStars.exe"+5025C0)
+assert("NeptuniaVirtualStars.exe"+502D10,F3 0F 11 89 B0 05 00 00 F3)
+define(playerStruct,"NeptuniaVirtualStars.exe"+502D10)
 registersymbol(playerStruct)
 
-alloc(playerStructMem,$1000,"NeptuniaVirtualStars.exe"+5025C0)
+alloc(playerStructMem,$1000,"NeptuniaVirtualStars.exe"+502D10)
 registersymbol(playerStructMem)
 
 define(pPlayerStruct,playerStructMem+100)
@@ -1517,6 +1518,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2312</ID>
               <Description>"X"</Description>
+              <LastState Value="0" RealAddress="2182ACC2320"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pPlayerStruct]+5B0</Address>
@@ -1524,6 +1526,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2308</ID>
               <Description>"Z"</Description>
+              <LastState Value="0" RealAddress="2182ACC2324"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pPlayerStruct]+5B4</Address>
@@ -1531,6 +1534,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2309</ID>
               <Description>"Y"</Description>
+              <LastState Value="0" RealAddress="2182ACC2328"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pPlayerStruct]+5B8</Address>
@@ -1548,7 +1552,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2551</ID>
               <Description>"Rim Light X"</Description>
-              <LastState Value="0.9576639533" RealAddress="21251975C50"/>
+              <LastState Value="0" RealAddress="217EB7C84C0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34B0</Address>
@@ -1556,7 +1560,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2553</ID>
               <Description>"Rim Light Z"</Description>
-              <LastState Value="-0.1107719466" RealAddress="21251975C54"/>
+              <LastState Value="0" RealAddress="217EB7C84C4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34B4</Address>
@@ -1564,7 +1568,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2552</ID>
               <Description>"Rim Light Y"</Description>
-              <LastState Value="0.2657241225" RealAddress="21251975C58"/>
+              <LastState Value="0" RealAddress="217EB7C84C8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34B8</Address>
@@ -1572,7 +1576,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2554</ID>
               <Description>"Side Light (?) X"</Description>
-              <LastState Value="0.2878766656" RealAddress="21251975C70"/>
+              <LastState Value="0" RealAddress="217EB7C84E0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34D0</Address>
@@ -1580,7 +1584,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2556</ID>
               <Description>"Side Light (?) Z"</Description>
-              <LastState Value="0.3767986" RealAddress="21251975C74"/>
+              <LastState Value="0" RealAddress="217EB7C84E4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34D4</Address>
@@ -1588,7 +1592,7 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
             <CheatEntry>
               <ID>2555</ID>
               <Description>"Side Light (?) Y"</Description>
-              <LastState Value="-0.8804262877" RealAddress="21251975C78"/>
+              <LastState Value="0" RealAddress="217EB7C84E8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
               <Address>[pCamStruct]+34D8</Address>
@@ -1596,115 +1600,9 @@ NeptuniaVirtualStars.exe+502539: CC                       - int 3
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>2319</ID>
-          <Description>"Toggle HUD (Old Method, Ignore)"</Description>
-          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <Color>800040</Color>
-          <GroupHeader>1</GroupHeader>
-          <Hotkeys>
-            <Hotkey>
-              <Action>Toggle Activation</Action>
-              <Keys/>
-              <ID>0</ID>
-            </Hotkey>
-          </Hotkeys>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>2320</ID>
-              <Description>"Set and freeze all HUD values to 0"</Description>
-              <Options moRecursiveSetValue="1" moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-              <LastState/>
-              <Color>800040</Color>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>//Taken from https://fearlessrevolution.com/viewtopic.php?t=12627
-
-{$lua}
-
-if syntaxcheck then return end
-
-for i = 0, memrec.Count - 1 do
-
-if memrec.Active then
-
-memrec[i].Value = '1'
-
-else
-
-memrec[i].Value = '0'
-
-end
-
-end
-
------------------------------- ENABLE ------------------------------
-
-[ENABLE]
-
------------------------------- DISABLE ------------------------------
-
-[DISABLE]
-
-
-</AssemblerScript>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>1140</ID>
-                  <Description>"Player - Lower Half"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pHudStruct]+008</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1142</ID>
-                  <Description>"Player - Upper Half"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pHudStruct]-9B0</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1144</ID>
-                  <Description>"Crosshair"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pHudStruct]+35F8</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1156</ID>
-                  <Description>"Interactive Objects"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pHudStruct]-1407C</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1159</ID>
-                  <Description>"Item Notification"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pHudStruct]-13D40</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>1162</ID>
-                  <Description>"Combo Hit Counter"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pHudStruct]-14048</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2316</ID>
-                  <Description>"Radar"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Float</VariableType>
-                  <Address>[pRadarInj]+08</Address>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
           <ID>1172</ID>
           <Description>"Extra Camera NOPs"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1"/>
           <LastState Value="" RealAddress="00000000"/>
           <Color>003F7D</Color>
           <GroupHeader>1</GroupHeader>
@@ -1716,13 +1614,13 @@ end
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+5940CC,0F 11 81 98 00 00 00)
-"NeptuniaVirtualStars.exe"+5940CC:
+assert("NeptuniaVirtualStars.exe"+59481C,0F 11 81 98 00 00 00)
+"NeptuniaVirtualStars.exe"+59481C:
   db 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5940CC:
+"NeptuniaVirtualStars.exe"+59481C:
   db 0F 11 81 98 00 00 00
 
 {
@@ -1762,19 +1660,19 @@ NeptuniaVirtualStars.exe+59402C: CC                    - int 3
               <AssemblerScript>//Disable Pitch and Yaw
 
 [ENABLE]
-assert("NeptuniaVirtualStars.exe"+5A471E,F3 0F 11 81 A0 04 00 00 C3)
+assert("NeptuniaVirtualStars.exe"+5A4E6E,F3 0F 11 81 A0 04 00 00 C3)
 
-"NeptuniaVirtualStars.exe"+5A471E:
+"NeptuniaVirtualStars.exe"+5A4E6E:
   db 90 90 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A474E:
+"NeptuniaVirtualStars.exe"+5A4E9E:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
-"NeptuniaVirtualStars.exe"+5A471E:
+"NeptuniaVirtualStars.exe"+5A4E6E:
   db F3 0F 11 81 A0 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A474E:
+"NeptuniaVirtualStars.exe"+5A4E9E:
   db F3 0F 11 81 A4 04 00 00
 
 {
@@ -1813,50 +1711,50 @@ NeptuniaVirtualStars.exe+5A467F: CC                       - int 3
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+5A45B9,F3 0F 11 82 94 04 00 00)
+assert("NeptuniaVirtualStars.exe"+5A4D09,F3 0F 11 82 94 04 00 00)
 
-"NeptuniaVirtualStars.exe"+5A45B9:
+"NeptuniaVirtualStars.exe"+5A4D09:
   db 90 90 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A45C1:
+"NeptuniaVirtualStars.exe"+5A4D11:
   db 90 90 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A45C9:
+"NeptuniaVirtualStars.exe"+5A4D19:
   db 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A471E:
+"NeptuniaVirtualStars.exe"+5A4E6E:
   db 90 90 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A474E:
+"NeptuniaVirtualStars.exe"+5A4E9E:
   db 90 90 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A4185:
+"NeptuniaVirtualStars.exe"+5A48D5:
   db 90 90 90 90 90 90 90 90
 
-"NeptuniaVirtualStars.exe"+5A419E:
+"NeptuniaVirtualStars.exe"+5A499E:
   db 90 90 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5A45B9:
+"NeptuniaVirtualStars.exe"+5A4D09:
   db F3 0F 11 82 94 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A45C1:
+"NeptuniaVirtualStars.exe"+5A4D11:
   db F3 0F 11 8A 98 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A45C9:
+"NeptuniaVirtualStars.exe"+5A4D19:
   db 89 82 90 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A471E:
+"NeptuniaVirtualStars.exe"+5A4E6E:
   db F3 0F 11 81 A0 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A474E:
+"NeptuniaVirtualStars.exe"+5A4E9E:
   db F3 0F 11 81 A4 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A4185:
+"NeptuniaVirtualStars.exe"+5A48D5:
   db F3 0F 11 88 C0 04 00 00
 
-"NeptuniaVirtualStars.exe"+5A424E:
+"NeptuniaVirtualStars.exe"+5A499E:
   db F3 0F 11 81 C4 04 00 00
 
 {
@@ -1891,237 +1789,6 @@ NeptuniaVirtualStars.exe+5A4526: CC                       - int 3
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>2425</ID>
-          <Description>"Freeze World (WIP)"</Description>
-          <LastState/>
-          <Color>888800</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+9FFB42,E8 35 E0 63 FF)
-
-"NeptuniaVirtualStars.exe"+9FFB42:
-  db 90 90 90 90 90
-
-"NeptuniaVirtualStars.exe"+4505F4:
-  db 90 90 90 90 90
-
-"NeptuniaVirtualStars.exe"+47D273:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-//Freeze World
-"NeptuniaVirtualStars.exe"+9FFB42:
-  db E8 35 E0 63 FF
-
-//Freeze Player Rotation
-"NeptuniaVirtualStars.exe"+4505F4:
-  db E8 AE 6B BC FF
-
-//Freeze Player's and Enemies' movement
-"NeptuniaVirtualStars.exe"+47D273:
-  db E8 7F 2A BB FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+9FFB42
-
-NeptuniaVirtualStars.exe+9FFB2D: CC                 - int 3 
-NeptuniaVirtualStars.exe+9FFB2E: CC                 - int 3 
-NeptuniaVirtualStars.exe+9FFB2F: CC                 - int 3 
-NeptuniaVirtualStars.exe+9FFB30: 40 53              - push rbx
-NeptuniaVirtualStars.exe+9FFB32: 57                 - push rdi
-NeptuniaVirtualStars.exe+9FFB33: 41 56              - push r14
-NeptuniaVirtualStars.exe+9FFB35: 48 83 EC 50        - sub rsp,50
-NeptuniaVirtualStars.exe+9FFB39: 33 DB              - xor ebx,ebx
-NeptuniaVirtualStars.exe+9FFB3B: 48 8B F9           - mov rdi,rcx
-NeptuniaVirtualStars.exe+9FFB3E: 89 5C 24 78        - mov [rsp+78],ebx
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+9FFB42: E8 35 E0 63 FF     - call NeptuniaVirtualStars.exe+3DB7C
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+9FFB47: 48 8B CF           - mov rcx,rdi
-NeptuniaVirtualStars.exe+9FFB4A: E8 C9 7F 64 FF     - call NeptuniaVirtualStars.exe+47B18
-NeptuniaVirtualStars.exe+9FFB4F: 4C 8B F0           - mov r14,rax
-NeptuniaVirtualStars.exe+9FFB52: 48 85 C0           - test rax,rax
-NeptuniaVirtualStars.exe+9FFB55: 0F 84 15 03 00 00  - je NeptuniaVirtualStars.exe+9FFE70
-NeptuniaVirtualStars.exe+9FFB5B: 48 89 6C 24 70     - mov [rsp+70],rbp
-NeptuniaVirtualStars.exe+9FFB60: 48 8B C8           - mov rcx,rax
-NeptuniaVirtualStars.exe+9FFB63: 33 ED              - xor ebp,ebp
-NeptuniaVirtualStars.exe+9FFB65: E8 FA F9 61 FF     - call NeptuniaVirtualStars.exe+1F564
-NeptuniaVirtualStars.exe+9FFB6A: 85 C0              - test eax,eax
-}
-</AssemblerScript>
-          <Hotkeys>
-            <Hotkey>
-              <Action>Toggle Activation</Action>
-              <Keys/>
-              <ID>0</ID>
-            </Hotkey>
-            <Hotkey>
-              <Action>Toggle Activation</Action>
-              <Keys/>
-              <ID>1</ID>
-            </Hotkey>
-          </Hotkeys>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>2715</ID>
-              <Description>"Disable Camera Culling (Needs to be activated before entering a level.)"</Description>
-              <LastState/>
-              <Color>0606A2</Color>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+DA85B6,41 89 00)
-
-"NeptuniaVirtualStars.exe"+DA85B6:
-  db 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+DA85B6:
-  db 41 89 00
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+DA85B6
-
-NeptuniaVirtualStars.exe+DA8599: 83 E2 1F     - and edx,1F
-NeptuniaVirtualStars.exe+DA859C: 48 C1 E8 05  - shr rax,05
-NeptuniaVirtualStars.exe+DA85A0: 4C 8D 04 81  - lea r8,[rcx+rax*4]
-NeptuniaVirtualStars.exe+DA85A4: 8B 04 81     - mov eax,[rcx+rax*4]
-NeptuniaVirtualStars.exe+DA85A7: 45 84 C9     - test r9l,r9l
-NeptuniaVirtualStars.exe+DA85AA: 74 07        - je NeptuniaVirtualStars.exe+DA85B3
-NeptuniaVirtualStars.exe+DA85AC: 0F AB D0     - bts eax,edx
-NeptuniaVirtualStars.exe+DA85AF: 41 89 00     - mov [r8],eax
-NeptuniaVirtualStars.exe+DA85B2: C3           - ret 
-NeptuniaVirtualStars.exe+DA85B3: 0F B3 D0     - btr eax,edx
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+DA85B6: 41 89 00     - mov [r8],eax
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+DA85B9: C3           - ret 
-NeptuniaVirtualStars.exe+DA85BA: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85BB: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85BC: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85BD: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85BE: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85BF: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85C0: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85C1: CC           - int 3 
-NeptuniaVirtualStars.exe+DA85C2: CC           - int 3 
-}
-</AssemblerScript>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>2351</ID>
-          <Description>"BeatTik's photo mode won't pause the character"</Description>
-          <LastState/>
-          <Color>004BAF</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+40E48E,E8 A6 90 C1 FF)
-
-"NeptuniaVirtualStars.exe"+40E48E:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+40E48E:
-  db E8 A6 90 C1 FF
-
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+40E48E
-
-NeptuniaVirtualStars.exe+40E46F: 33 C9                    - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E471: 89 47 64                 - mov [rdi+64],eax
-NeptuniaVirtualStars.exe+40E474: E8 C0 90 C1 FF           - call NeptuniaVirtualStars.exe+27539
-NeptuniaVirtualStars.exe+40E479: 33 C9                    - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E47B: E8 B9 A3 C2 FF           - call NeptuniaVirtualStars.exe+38839
-NeptuniaVirtualStars.exe+40E480: E8 D9 20 C1 FF           - call NeptuniaVirtualStars.exe+2055E
-NeptuniaVirtualStars.exe+40E485: EB 51                    - jmp NeptuniaVirtualStars.exe+40E4D8
-NeptuniaVirtualStars.exe+40E487: 0B C1                    - or eax,ecx
-NeptuniaVirtualStars.exe+40E489: B1 01                    - mov cl,01
-NeptuniaVirtualStars.exe+40E48B: 89 47 64                 - mov [rdi+64],eax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+40E48E: E8 A6 90 C1 FF           - call NeptuniaVirtualStars.exe+27539
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+40E493: 33 C9                    - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E495: E8 6A BD BF FF           - call NeptuniaVirtualStars.exe+A204
-NeptuniaVirtualStars.exe+40E49A: 48 8B C8                 - mov rcx,rax
-NeptuniaVirtualStars.exe+40E49D: 48 8B D8                 - mov rbx,rax
-NeptuniaVirtualStars.exe+40E4A0: E8 16 31 C2 FF           - call NeptuniaVirtualStars.exe+315BB
-NeptuniaVirtualStars.exe+40E4A5: 48 8B CB                 - mov rcx,rbx
-NeptuniaVirtualStars.exe+40E4A8: E8 98 B5 C2 FF           - call NeptuniaVirtualStars.exe+39A45
-NeptuniaVirtualStars.exe+40E4AD: F3 0F 10 15 1F 8E 24 01  - movss xmm2,[NeptuniaVirtualStars.exe+16572D4]
-NeptuniaVirtualStars.exe+40E4B5: F3 0F 10 0D 03 3D 25 01  - movss xmm1,[NeptuniaVirtualStars.exe+16621C0]
-NeptuniaVirtualStars.exe+40E4BD: E8 7E 92 C2 FF           - call NeptuniaVirtualStars.exe+37740
-}
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>0</ID>
-          <Description>"BeatTik's photo mode camera won't be disabled"</Description>
-          <LastState/>
-          <Color>004BAF</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+40E47B,E8 B9 A3 C2 FF)
-
-"NeptuniaVirtualStars.exe"+40E47B:
-  db 90 90 90 90 90
-
-"NeptuniaVirtualStars.exe"+40E480:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+40E47B:
-  db E8 B9 A3 C2 FF
-
-"NeptuniaVirtualStars.exe"+40E480:
-  db E8 D9 20 C1 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+40E47B
-
-NeptuniaVirtualStars.exe+40E461: 8B 4F 64        - mov ecx,[rdi+64]
-NeptuniaVirtualStars.exe+40E464: 8B 47 58        - mov eax,[rdi+58]
-NeptuniaVirtualStars.exe+40E467: 85 C1           - test ecx,eax
-NeptuniaVirtualStars.exe+40E469: 74 1C           - je NeptuniaVirtualStars.exe+40E487
-NeptuniaVirtualStars.exe+40E46B: F7 D0           - not eax
-NeptuniaVirtualStars.exe+40E46D: 23 C1           - and eax,ecx
-NeptuniaVirtualStars.exe+40E46F: 33 C9           - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E471: 89 47 64        - mov [rdi+64],eax
-NeptuniaVirtualStars.exe+40E474: E8 C0 90 C1 FF  - call NeptuniaVirtualStars.exe+27539
-NeptuniaVirtualStars.exe+40E479: 33 C9           - xor ecx,ecx
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+40E47B: E8 B9 A3 C2 FF  - call NeptuniaVirtualStars.exe+38839
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+40E480: E8 D9 20 C1 FF  - call NeptuniaVirtualStars.exe+2055E
-NeptuniaVirtualStars.exe+40E485: EB 51           - jmp NeptuniaVirtualStars.exe+40E4D8
-NeptuniaVirtualStars.exe+40E487: 0B C1           - or eax,ecx
-NeptuniaVirtualStars.exe+40E489: B1 01           - mov cl,01
-NeptuniaVirtualStars.exe+40E48B: 89 47 64        - mov [rdi+64],eax
-NeptuniaVirtualStars.exe+40E48E: E8 A6 90 C1 FF  - call NeptuniaVirtualStars.exe+27539
-NeptuniaVirtualStars.exe+40E493: 33 C9           - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E495: E8 6A BD BF FF  - call NeptuniaVirtualStars.exe+A204
-NeptuniaVirtualStars.exe+40E49A: 48 8B C8        - mov rcx,rax
-NeptuniaVirtualStars.exe+40E49D: 48 8B D8        - mov rbx,rax
-}
-</AssemblerScript>
-          <Hotkeys>
-            <Hotkey>
-              <Action>Toggle Activation</Action>
-              <Keys/>
-              <ID>0</ID>
-            </Hotkey>
-          </Hotkeys>
-        </CheatEntry>
-        <CheatEntry>
           <ID>2561</ID>
           <Description>"Freeze BeatTik gameplay"</Description>
           <LastState/>
@@ -2129,14 +1796,14 @@ NeptuniaVirtualStars.exe+40E49D: 48 8B D8        - mov rbx,rax
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+4CFA7A,E8 87 78 B3 FF)
-"NeptuniaVirtualStars.exe"+4CFA7A:
+assert("NeptuniaVirtualStars.exe"+4D01CA,E8 37 71 B3 FF)
+"NeptuniaVirtualStars.exe"+4D01CA:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+4CFA7A:
-  db E8 87 78 B3 FF
+"NeptuniaVirtualStars.exe"+4D01CA:
+  db E8 37 71 B3 FF
 
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+4CFA7A
@@ -2170,20 +1837,20 @@ NeptuniaVirtualStars.exe+4CFAA4: E8 5A 43 B4 FF        - call NeptuniaVirtualSta
         <CheatEntry>
           <ID>2346</ID>
           <Description>"Freeze BeatTik Dancer"</Description>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>004BAF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+4C86FB,E8 B3 CC B7 FF)
+assert("NeptuniaVirtualStars.exe"+4C8E4B,E8 3B C5 B7 FF)
 
-"NeptuniaVirtualStars.exe"+4C86FB:
+"NeptuniaVirtualStars.exe"+4C8E4B:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+4C86FB:
-  db E8 B3 CC B7 FF
+"NeptuniaVirtualStars.exe"+4C8E4B:
+  db E8 3B C5 B7 FF
 
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+4C86FB
@@ -2222,15 +1889,15 @@ NeptuniaVirtualStars.exe+4C871F: 48 83 C4 30     - add rsp,30
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+97D1C7,E8 FE 61 6B FF)
+assert("NeptuniaVirtualStars.exe"+97D9A7,E8 EC 59 6B FF)
 
-"NeptuniaVirtualStars.exe"+97D1C7:
+"NeptuniaVirtualStars.exe"+97D9A7:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+97D1C7:
-  db E8 FE 61 6B FF
+"NeptuniaVirtualStars.exe"+97D9A7:
+  db E8 EC 59 6B FF
 
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+97D1C7
@@ -2262,53 +1929,6 @@ NeptuniaVirtualStars.exe+97D1F6: 41 5F                    - pop r15
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>2352</ID>
-          <Description>"Disable Camera Input"</Description>
-          <LastState/>
-          <Color>400080</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+423374,E8 E5 B1 C1 FF)
-
-"NeptuniaVirtualStars.exe"+423374:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+423374:
-  db E8 E5 B1 C1 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+423374
-
-NeptuniaVirtualStars.exe+423344: 48 8D 8F A0 00 00 00  - lea rcx,[rdi+000000A0]
-NeptuniaVirtualStars.exe+42334B: 0F 57 C0              - xorps xmm0,xmm0
-NeptuniaVirtualStars.exe+42334E: 45 33 C9              - xor r9d,r9d
-NeptuniaVirtualStars.exe+423351: F3 0F 11 44 24 48     - movss [rsp+48],xmm0
-NeptuniaVirtualStars.exe+423357: 44 0F B6 C3           - movzx r8d,bl
-NeptuniaVirtualStars.exe+42335B: C6 44 24 40 00        - mov byte ptr [rsp+40],00
-NeptuniaVirtualStars.exe+423360: C6 44 24 38 01        - mov byte ptr [rsp+38],01
-NeptuniaVirtualStars.exe+423365: C6 44 24 30 01        - mov byte ptr [rsp+30],01
-NeptuniaVirtualStars.exe+42336A: 48 89 44 24 28        - mov [rsp+28],rax
-NeptuniaVirtualStars.exe+42336F: 40 88 74 24 20        - mov [rsp+20],sil
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+423374: E8 E5 B1 C1 FF        - call NeptuniaVirtualStars.exe+3E55E
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+423379: E8 91 7E C1 FF        - call NeptuniaVirtualStars.exe+3B20F
-NeptuniaVirtualStars.exe+42337E: 48 8B 5C 24 60        - mov rbx,[rsp+60]
-NeptuniaVirtualStars.exe+423383: 84 C0                 - test al,al
-NeptuniaVirtualStars.exe+423385: 74 11                 - je NeptuniaVirtualStars.exe+423398
-NeptuniaVirtualStars.exe+423387: E8 6E 86 BF FF        - call NeptuniaVirtualStars.exe+1B9FA
-NeptuniaVirtualStars.exe+42338C: 84 C0                 - test al,al
-NeptuniaVirtualStars.exe+42338E: 74 08                 - je NeptuniaVirtualStars.exe+423398
-NeptuniaVirtualStars.exe+423390: 48 8B CF              - mov rcx,rdi
-NeptuniaVirtualStars.exe+423393: E8 7F AA BF FF        - call NeptuniaVirtualStars.exe+1DE17
-NeptuniaVirtualStars.exe+423398: 48 8B 74 24 68        - mov rsi,[rsp+68]
-}
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
           <ID>2423</ID>
           <Description>"Freeze Env Map/Fresnel"</Description>
           <LastState/>
@@ -2316,14 +1936,14 @@ NeptuniaVirtualStars.exe+423398: 48 8B 74 24 68        - mov rsi,[rsp+68]
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+80EAE3,FF 90 D8 00 00 00 48 83 C4 48)
+assert("NeptuniaVirtualStars.exe"+80F2C3,FF 90 D8 00 00 00 48 83 C4 48)
 
-"NeptuniaVirtualStars.exe"+80EAE3:
+"NeptuniaVirtualStars.exe"+80F2C3:
   db 90 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+80EAE3:
+"NeptuniaVirtualStars.exe"+80F2C3:
   db FF 90 D8 00 00 00
 
 {
@@ -2363,15 +1983,15 @@ NeptuniaVirtualStars.exe+80EAF5: CC                 - int 3
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+519B3E,E8 8D 49 AF FF)
+assert("NeptuniaVirtualStars.exe"+51A28E,E8 3D 42 AF FF)
 
-"NeptuniaVirtualStars.exe"+519B3E:
+"NeptuniaVirtualStars.exe"+51A28E:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+519B3E:
-  db E8 8D 49 AF FF
+"NeptuniaVirtualStars.exe"+51A28E:
+  db E8 3D 42 AF FF
 
 
 {
@@ -2404,60 +2024,6 @@ NeptuniaVirtualStars.exe+519B60: 48 8B 7C 24 38  - mov rdi,[rsp+38]
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>2342</ID>
-          <Description>"Freeze Rendering"</Description>
-          <LastState/>
-          <Color>646428</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+ACDEA7,E8 04 11 55 FF)
-
-"NeptuniaVirtualStars.exe"+ACDEA7:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+ACDEA7:
-  db E8 04 11 55 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+ACDEA7
-
-NeptuniaVirtualStars.exe+ACDE7F: 40 38 B7 EB 10 00 00  - cmp [rdi+000010EB],sil
-NeptuniaVirtualStars.exe+ACDE86: 74 0A                 - je NeptuniaVirtualStars.exe+ACDE92
-NeptuniaVirtualStars.exe+ACDE88: 48 8B CF              - mov rcx,rdi
-NeptuniaVirtualStars.exe+ACDE8B: E8 E7 CF 56 FF        - call NeptuniaVirtualStars.exe+3AE77
-NeptuniaVirtualStars.exe+ACDE90: 8B D8                 - mov ebx,eax
-NeptuniaVirtualStars.exe+ACDE92: 40 38 B7 74 06 00 00  - cmp [rdi+00000674],sil
-NeptuniaVirtualStars.exe+ACDE99: 75 20                 - jne NeptuniaVirtualStars.exe+ACDEBB
-NeptuniaVirtualStars.exe+ACDE9B: 40 38 B7 3F 10 00 00  - cmp [rdi+0000103F],sil
-NeptuniaVirtualStars.exe+ACDEA2: 74 0A                 - je NeptuniaVirtualStars.exe+ACDEAE
-NeptuniaVirtualStars.exe+ACDEA4: 48 8B CF              - mov rcx,rdi
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+ACDEA7: E8 04 11 55 FF        - call NeptuniaVirtualStars.exe+1EFB0
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+ACDEAC: 8B D8                 - mov ebx,eax
-NeptuniaVirtualStars.exe+ACDEAE: 40 38 B7 AE 08 00 00  - cmp [rdi+000008AE],sil
-NeptuniaVirtualStars.exe+ACDEB5: 0F 85 9A 17 00 00     - jne NeptuniaVirtualStars.exe+ACF655
-NeptuniaVirtualStars.exe+ACDEBB: 40 38 B7 9A 05 00 00  - cmp [rdi+0000059A],sil
-NeptuniaVirtualStars.exe+ACDEC2: 0F 84 3D 01 00 00     - je NeptuniaVirtualStars.exe+ACE005
-NeptuniaVirtualStars.exe+ACDEC8: 48 89 74 24 40        - mov [rsp+40],rsi
-NeptuniaVirtualStars.exe+ACDECD: 48 89 74 24 38        - mov [rsp+38],rsi
-NeptuniaVirtualStars.exe+ACDED2: 89 74 24 30           - mov [rsp+30],esi
-NeptuniaVirtualStars.exe+ACDED6: F3 44 0F 11 64 24 28  - movss [rsp+28],xmm12
-NeptuniaVirtualStars.exe+ACDEDD: 48 89 74 24 20        - mov [rsp+20],rsi
-}
-</AssemblerScript>
-          <Hotkeys>
-            <Hotkey>
-              <Action>Toggle Activation</Action>
-              <Keys/>
-              <ID>0</ID>
-            </Hotkey>
-          </Hotkeys>
-        </CheatEntry>
-        <CheatEntry>
           <ID>2354</ID>
           <Description>"Freeze the world but not the player"</Description>
           <LastState/>
@@ -2465,14 +2031,14 @@ NeptuniaVirtualStars.exe+ACDEDD: 48 89 74 24 20        - mov [rsp+20],rsi
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+7971B4,E8 39 85 8A FF)
-"NeptuniaVirtualStars.exe"+7971B4:
+assert("NeptuniaVirtualStars.exe"+797994,E8 27 7D 8A FF)
+"NeptuniaVirtualStars.exe"+797994:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+7971B4:
-  db E8 39 85 8A FF
+"NeptuniaVirtualStars.exe"+797994:
+  db E8 27 7D 8A FF
 
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+7971B4
@@ -2511,15 +2077,15 @@ NeptuniaVirtualStars.exe+7971C9: CC              - int 3
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 
-assert("NeptuniaVirtualStars.exe"+5D9047,E8 7F E2 A6 FF)
+assert("NeptuniaVirtualStars.exe"+5D9787,E8 17 DB A6 FF)
 
-"NeptuniaVirtualStars.exe"+5D9047:
+"NeptuniaVirtualStars.exe"+5D9787:
   db 90 90 90 90 90
 
 [DISABLE]
 
-"NeptuniaVirtualStars.exe"+5D9047:
-  db E8 7F E2 A6 FF
+"NeptuniaVirtualStars.exe"+5D9787:
+  db E8 17 DB A6 FF
 
 {
 // ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+5D9047
@@ -2549,857 +2115,6 @@ NeptuniaVirtualStars.exe+5D9070: 48 8B 74 24 48     - mov rsi,[rsp+48]
 NeptuniaVirtualStars.exe+5D9075: 48 83 C4 30        - add rsp,30
 }
 </AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>2560</ID>
-          <Description>"Hide some animated objects and part of the HUD"</Description>
-          <LastState/>
-          <Color>880000</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+67C654,FF 13)
-
-"NeptuniaVirtualStars.exe"+67C654:
-  db 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+67C654:
-  db FF 13
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+67C654
-
-NeptuniaVirtualStars.exe+67C630: 8B C9                 - mov ecx,ecx
-NeptuniaVirtualStars.exe+67C632: 48 83 C1 06           - add rcx,06
-NeptuniaVirtualStars.exe+67C636: 48 89 5C 24 20        - mov [rsp+20],rbx
-NeptuniaVirtualStars.exe+67C63B: 48 03 C9              - add rcx,rcx
-NeptuniaVirtualStars.exe+67C63E: 48 8B 98 E0 06 00 00  - mov rbx,[rax+000006E0]
-NeptuniaVirtualStars.exe+67C645: 48 8B 1C CB           - mov rbx,[rbx+rcx*8]
-NeptuniaVirtualStars.exe+67C649: 48 85 DB              - test rbx,rbx
-NeptuniaVirtualStars.exe+67C64C: 74 15                 - je NeptuniaVirtualStars.exe+67C663
-NeptuniaVirtualStars.exe+67C64E: 66 90                 - nop 2
-NeptuniaVirtualStars.exe+67C650: 48 8B 4B 08           - mov rcx,[rbx+08]
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+67C654: FF 13                 - call qword ptr [rbx]
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+67C656: 85 C0                 - test eax,eax
-NeptuniaVirtualStars.exe+67C658: 78 09                 - js NeptuniaVirtualStars.exe+67C663
-NeptuniaVirtualStars.exe+67C65A: 48 8B 5B 10           - mov rbx,[rbx+10]
-NeptuniaVirtualStars.exe+67C65E: 48 85 DB              - test rbx,rbx
-NeptuniaVirtualStars.exe+67C661: 75 ED                 - jne NeptuniaVirtualStars.exe+67C650
-NeptuniaVirtualStars.exe+67C663: 48 8B 5C 24 20        - mov rbx,[rsp+20]
-NeptuniaVirtualStars.exe+67C668: 48 83 C4 28           - add rsp,28
-NeptuniaVirtualStars.exe+67C66C: C3                    - ret 
-NeptuniaVirtualStars.exe+67C66D: CC                    - int 3 
-NeptuniaVirtualStars.exe+67C66E: CC                    - int 3 
-}
-</AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>2344</ID>
-          <Description>"Weird instructions (Ignore)"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <Color>8D8D8D</Color>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>2340</ID>
-              <Description>"RGB Distortion Glitch"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+ACD34C,E8 00 FE 54 FF)
-
-"NeptuniaVirtualStars.exe"+ACD34C:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+ACD34C:
-  db E8 00 FE 54 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+ACD34C
-
-NeptuniaVirtualStars.exe+ACD321: 44 89 44 24 48        - mov [rsp+48],r8d
-NeptuniaVirtualStars.exe+ACD326: 89 54 24 40           - mov [rsp+40],edx
-NeptuniaVirtualStars.exe+ACD32A: 89 4C 24 38           - mov [rsp+38],ecx
-NeptuniaVirtualStars.exe+ACD32E: 48 89 44 24 30        - mov [rsp+30],rax
-NeptuniaVirtualStars.exe+ACD333: 40 88 74 24 28        - mov [rsp+28],sil
-NeptuniaVirtualStars.exe+ACD338: 48 89 74 24 20        - mov [rsp+20],rsi
-NeptuniaVirtualStars.exe+ACD33D: 4C 8B CB              - mov r9,rbx
-NeptuniaVirtualStars.exe+ACD340: 41 B0 01              - mov r8l,01
-NeptuniaVirtualStars.exe+ACD343: 8B 95 30 01 00 00     - mov edx,[rbp+00000130]
-NeptuniaVirtualStars.exe+ACD349: 48 8B CF              - mov rcx,rdi
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+ACD34C: E8 00 FE 54 FF        - call NeptuniaVirtualStars.exe+1D151
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+ACD351: 8B D8                 - mov ebx,eax
-NeptuniaVirtualStars.exe+ACD353: 4C 8B 65 A8           - mov r12,[rbp-58]
-NeptuniaVirtualStars.exe+ACD357: E9 8C 01 00 00        - jmp NeptuniaVirtualStars.exe+ACD4E8
-NeptuniaVirtualStars.exe+ACD35C: E8 27 EE 55 FF        - call NeptuniaVirtualStars.exe+2C188
-NeptuniaVirtualStars.exe+ACD361: 48 8B D8              - mov rbx,rax
-NeptuniaVirtualStars.exe+ACD364: 45 84 FF              - test r15l,r15l
-NeptuniaVirtualStars.exe+ACD367: 0F 84 C6 00 00 00     - je NeptuniaVirtualStars.exe+ACD433
-NeptuniaVirtualStars.exe+ACD36D: 48 89 75 98           - mov [rbp-68],rsi
-NeptuniaVirtualStars.exe+ACD371: 48 89 75 90           - mov [rbp-70],rsi
-NeptuniaVirtualStars.exe+ACD375: 0F 28 05 24 A9 B9 00  - movaps xmm0,[NeptuniaVirtualStars.exe+1667CA0]
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2331</ID>
-              <Description>"Disable Pause Frame Buffering"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+23A355,E8 8F A6 DC FF)
-
-"NeptuniaVirtualStars.exe"+23A355:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+23A355:
-  db E8 8F A6 DC FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+23A355
-
-NeptuniaVirtualStars.exe+23A322: E9 8B 00 00 00              - jmp NeptuniaVirtualStars.exe+23A3B2
-NeptuniaVirtualStars.exe+23A327: E8 4D 7D DF FF              - call NeptuniaVirtualStars.exe+32079
-NeptuniaVirtualStars.exe+23A32C: 48 8B 0D 8D 0C 9B 01        - mov rcx,[NeptuniaVirtualStars.exe+1BEAFC0]
-NeptuniaVirtualStars.exe+23A333: F3 0F 10 8C 24 98 00 00 00  - movss xmm1,[rsp+00000098]
-NeptuniaVirtualStars.exe+23A33C: 48 89 41 50                 - mov [rcx+50],rax
-NeptuniaVirtualStars.exe+23A340: 48 8B C8                    - mov rcx,rax
-NeptuniaVirtualStars.exe+23A343: E8 54 70 DD FF              - call NeptuniaVirtualStars.exe+1139C
-NeptuniaVirtualStars.exe+23A348: 48 8B 0D 71 0C 9B 01        - mov rcx,[NeptuniaVirtualStars.exe+1BEAFC0]
-NeptuniaVirtualStars.exe+23A34F: B2 01                       - mov dl,01
-NeptuniaVirtualStars.exe+23A351: 48 8B 49 50                 - mov rcx,[rcx+50]
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+23A355: E8 8F A6 DC FF              - call NeptuniaVirtualStars.exe+49E9
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+23A35A: 48 8B 0D 5F 0C 9B 01        - mov rcx,[NeptuniaVirtualStars.exe+1BEAFC0]
-NeptuniaVirtualStars.exe+23A361: 0F 57 DB                    - xorps xmm3,xmm3
-NeptuniaVirtualStars.exe+23A364: F3 0F 10 15 C0 E4 EC 00     - movss xmm2,[NeptuniaVirtualStars.exe+110882C]
-NeptuniaVirtualStars.exe+23A36C: BA 02 00 00 00              - mov edx,00000002
-NeptuniaVirtualStars.exe+23A371: F3 0F 11 5C 24 20           - movss [rsp+20],xmm3
-NeptuniaVirtualStars.exe+23A377: 48 8B 49 50                 - mov rcx,[rcx+50]
-NeptuniaVirtualStars.exe+23A37B: E8 E6 EF DE FF              - call NeptuniaVirtualStars.exe+29366
-NeptuniaVirtualStars.exe+23A380: 48 8B 0D 39 0C 9B 01        - mov rcx,[NeptuniaVirtualStars.exe+1BEAFC0]
-NeptuniaVirtualStars.exe+23A387: F3 0F 10 0D A9 9B 3E 01     - movss xmm1,[NeptuniaVirtualStars.exe+1623F38]
-NeptuniaVirtualStars.exe+23A38F: 48 8B 49 50                 - mov rcx,[rcx+50]
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2332</ID>
-              <Description>"Disable Pause World Rendering"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+23998B,E8 8A 8D DD FF)
-
-"NeptuniaVirtualStars.exe"+23998B:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+23998B:
-  db E8 8A 8D DD FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+23998B
-
-NeptuniaVirtualStars.exe+239960: 48 89 5C 24 18           - mov [rsp+18],rbx
-NeptuniaVirtualStars.exe+239965: 57                       - push rdi
-NeptuniaVirtualStars.exe+239966: 48 81 EC 90 00 00 00     - sub rsp,00000090
-NeptuniaVirtualStars.exe+23996D: 48 8B 05 24 5C 95 01     - mov rax,[NeptuniaVirtualStars.exe+1B8F598]
-NeptuniaVirtualStars.exe+239974: 48 33 C4                 - xor rax,rsp
-NeptuniaVirtualStars.exe+239977: 48 89 84 24 80 00 00 00  - mov [rsp+00000080],rax
-NeptuniaVirtualStars.exe+23997F: 8B D9                    - mov ebx,ecx
-NeptuniaVirtualStars.exe+239981: E8 A9 37 DD FF           - call NeptuniaVirtualStars.exe+D12F
-NeptuniaVirtualStars.exe+239986: 8B CB                    - mov ecx,ebx
-NeptuniaVirtualStars.exe+239988: 48 8B F8                 - mov rdi,rax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+23998B: E8 8A 8D DD FF           - call NeptuniaVirtualStars.exe+1271A
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+239990: 48 85 FF                 - test rdi,rdi
-NeptuniaVirtualStars.exe+239993: 74 6E                    - je NeptuniaVirtualStars.exe+239A03
-NeptuniaVirtualStars.exe+239995: 48 85 C0                 - test rax,rax
-NeptuniaVirtualStars.exe+239998: 74 69                    - je NeptuniaVirtualStars.exe+239A03
-NeptuniaVirtualStars.exe+23999A: 48 89 B4 24 A8 00 00 00  - mov [rsp+000000A8],rsi
-NeptuniaVirtualStars.exe+2399A2: 33 DB                    - xor ebx,ebx
-NeptuniaVirtualStars.exe+2399A4: 48 8D B0 70 01 00 00     - lea rsi,[rax+00000170]
-NeptuniaVirtualStars.exe+2399AB: 0F 1F 44 00 00           - nop dword ptr [rax+rax+00]
-NeptuniaVirtualStars.exe+2399B0: 8B D3                    - mov edx,ebx
-NeptuniaVirtualStars.exe+2399B2: 48 8B CE                 - mov rcx,rsi
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2337</ID>
-              <Description>"Disable Pause Buffer?"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+CF8A4A,FF 90 D0 01 00 00 0F)
-"NeptuniaVirtualStars.exe"+CF8A4A:
-  db 90 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+CF8A4A:
-  db FF 90 D0 01 00 00
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+CF8A4A
-
-NeptuniaVirtualStars.exe+CF8A1F: 48 8B CF                 - mov rcx,rdi
-NeptuniaVirtualStars.exe+CF8A22: FF 90 68 01 00 00        - call qword ptr [rax+00000168]
-NeptuniaVirtualStars.exe+CF8A28: 48 8B 07                 - mov rax,[rdi]
-NeptuniaVirtualStars.exe+CF8A2B: BA 05 00 00 00           - mov edx,00000005
-NeptuniaVirtualStars.exe+CF8A30: 48 8B CF                 - mov rcx,rdi
-NeptuniaVirtualStars.exe+CF8A33: FF 90 40 01 00 00        - call qword ptr [rax+00000140]
-NeptuniaVirtualStars.exe+CF8A39: 48 8B 07                 - mov rax,[rdi]
-NeptuniaVirtualStars.exe+CF8A3C: 4C 8D 87 40 02 00 00     - lea r8,[rdi+00000240]
-NeptuniaVirtualStars.exe+CF8A43: 48 8D 56 08              - lea rdx,[rsi+08]
-NeptuniaVirtualStars.exe+CF8A47: 48 8B CF                 - mov rcx,rdi
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+CF8A4A: FF 90 D0 01 00 00        - call qword ptr [rax+000001D0]
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+CF8A50: 0F 28 05 B9 5D 99 00     - movaps xmm0,[NeptuniaVirtualStars.exe+168E810]
-NeptuniaVirtualStars.exe+CF8A57: 0F 11 44 24 48           - movups [rsp+48],xmm0
-NeptuniaVirtualStars.exe+CF8A5C: 48 8B 07                 - mov rax,[rdi]
-NeptuniaVirtualStars.exe+CF8A5F: 48 8D 56 40              - lea rdx,[rsi+40]
-NeptuniaVirtualStars.exe+CF8A63: 4C 8D 44 24 48           - lea r8,[rsp+48]
-NeptuniaVirtualStars.exe+CF8A68: 48 8B CF                 - mov rcx,rdi
-NeptuniaVirtualStars.exe+CF8A6B: FF 90 00 02 00 00        - call qword ptr [rax+00000200]
-NeptuniaVirtualStars.exe+CF8A71: 48 8B D3                 - mov rdx,rbx
-NeptuniaVirtualStars.exe+CF8A74: 48 8D 8C 24 98 00 00 00  - lea rcx,[rsp+00000098]
-NeptuniaVirtualStars.exe+CF8A7C: E8 6B 41 33 FF           - call NeptuniaVirtualStars.exe+2CBEC
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2334</ID>
-              <Description>"Weird (disable maybe?) thing with the pause fade-to-black"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+23A3AD,E8 BE 16 E0 FF)
-
-"NeptuniaVirtualStars.exe"+23A3AD:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+23A3AD:
-  db E8 BE 16 E0 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+23A3AD
-
-NeptuniaVirtualStars.exe+23A37B: E8 E6 EF DE FF           - call NeptuniaVirtualStars.exe+29366
-NeptuniaVirtualStars.exe+23A380: 48 8B 0D 39 0C 9B 01     - mov rcx,[NeptuniaVirtualStars.exe+1BEAFC0]
-NeptuniaVirtualStars.exe+23A387: F3 0F 10 0D A9 9B 3E 01  - movss xmm1,[NeptuniaVirtualStars.exe+1623F38]
-NeptuniaVirtualStars.exe+23A38F: 48 8B 49 50              - mov rcx,[rcx+50]
-NeptuniaVirtualStars.exe+23A393: E8 C6 43 DE FF           - call NeptuniaVirtualStars.exe+1E75E
-NeptuniaVirtualStars.exe+23A398: 48 8B 0D 21 0C 9B 01     - mov rcx,[NeptuniaVirtualStars.exe+1BEAFC0]
-NeptuniaVirtualStars.exe+23A39F: 0F 28 DE                 - movaps xmm3,xmm6
-NeptuniaVirtualStars.exe+23A3A2: 0F 28 D7                 - movaps xmm2,xmm7
-NeptuniaVirtualStars.exe+23A3A5: 41 0F 28 C8              - movaps xmm1,xmm8
-NeptuniaVirtualStars.exe+23A3A9: 48 8B 49 50              - mov rcx,[rcx+50]
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+23A3AD: E8 BE 16 E0 FF           - call NeptuniaVirtualStars.exe+3BA70
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+23A3B2: 48 8B 05 A7 39 96 01     - mov rax,[NeptuniaVirtualStars.exe+1B9DD60]
-NeptuniaVirtualStars.exe+23A3B9: 0F B6 94 24 90 00 00 00  - movzx edx,byte ptr [rsp+00000090]
-NeptuniaVirtualStars.exe+23A3C1: 0F 28 74 24 50           - movaps xmm6,[rsp+50]
-NeptuniaVirtualStars.exe+23A3C6: 0F 28 7C 24 40           - movaps xmm7,[rsp+40]
-NeptuniaVirtualStars.exe+23A3CB: 48 8B 48 48              - mov rcx,[rax+48]
-NeptuniaVirtualStars.exe+23A3CF: 44 0F 28 44 24 30        - movaps xmm8,[rsp+30]
-NeptuniaVirtualStars.exe+23A3D5: 89 51 50                 - mov [rcx+50],edx
-NeptuniaVirtualStars.exe+23A3D8: 48 83 C4 60              - add rsp,60
-NeptuniaVirtualStars.exe+23A3DC: 5B                       - pop rbx
-NeptuniaVirtualStars.exe+23A3DD: C3                       - ret 
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2335</ID>
-              <Description>"Disable Pause Fade-to-Black"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+5BF2F6,E8 59 88 A8 FF)
-
-"NeptuniaVirtualStars.exe"+5BF2F6:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+5BF2F6:
-  db E8 59 88 A8 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+5BF2F6
-
-NeptuniaVirtualStars.exe+5BF2B8: 48 C7 43 20 01 00 00 00  - mov qword ptr [rbx+20],00000001
-NeptuniaVirtualStars.exe+5BF2C0: 48 89 7B 28              - mov [rbx+28],rdi
-NeptuniaVirtualStars.exe+5BF2C4: 48 89 7B 30              - mov [rbx+30],rdi
-NeptuniaVirtualStars.exe+5BF2C8: C7 43 38 00 00 80 3F     - mov [rbx+38],3F800000
-NeptuniaVirtualStars.exe+5BF2CF: C7 43 3C 00 00 80 3F     - mov [rbx+3C],3F800000
-NeptuniaVirtualStars.exe+5BF2D6: C7 43 40 00 00 80 3F     - mov [rbx+40],3F800000
-NeptuniaVirtualStars.exe+5BF2DD: C7 43 44 00 00 80 3F     - mov [rbx+44],3F800000
-NeptuniaVirtualStars.exe+5BF2E4: C7 43 48 00 00 80 3F     - mov [rbx+48],3F800000
-NeptuniaVirtualStars.exe+5BF2EB: C7 43 4C 00 00 80 3F     - mov [rbx+4C],3F800000
-NeptuniaVirtualStars.exe+5BF2F2: 48 89 7B 50              - mov [rbx+50],rdi
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+5BF2F6: E8 59 88 A8 FF           - call NeptuniaVirtualStars.exe+47B54
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+5BF2FB: 48 8D 05 5E 7B 0C 01     - lea rax,[NeptuniaVirtualStars.exe+1686E60]
-NeptuniaVirtualStars.exe+5BF302: 48 89 03                 - mov [rbx],rax
-NeptuniaVirtualStars.exe+5BF305: 89 73 58                 - mov [rbx+58],esi
-NeptuniaVirtualStars.exe+5BF308: 48 89 7B 60              - mov [rbx+60],rdi
-NeptuniaVirtualStars.exe+5BF30C: 89 7B 68                 - mov [rbx+68],edi
-NeptuniaVirtualStars.exe+5BF30F: C7 43 6C 00 00 80 3F     - mov [rbx+6C],3F800000
-NeptuniaVirtualStars.exe+5BF316: C7 43 70 00 00 80 3F     - mov [rbx+70],3F800000
-NeptuniaVirtualStars.exe+5BF31D: C7 43 74 00 00 80 3F     - mov [rbx+74],3F800000
-NeptuniaVirtualStars.exe+5BF324: EB 03                    - jmp NeptuniaVirtualStars.exe+5BF329
-NeptuniaVirtualStars.exe+5BF326: 48 8B DF                 - mov rbx,rdi
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2336</ID>
-              <Description>"Disable Pause Frame Buffer Resizing"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+D0AE03,41 FF 50 60)
-
-"NeptuniaVirtualStars.exe"+D0AE03:
-  db 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+D0AE03:
-  db 41 FF 50 60
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+D0AE03
-
-NeptuniaVirtualStars.exe+D0ADDA: 45 33 C0              - xor r8d,r8d
-NeptuniaVirtualStars.exe+D0ADDD: 48 8D 54 24 70        - lea rdx,[rsp+70]
-NeptuniaVirtualStars.exe+D0ADE2: 48 8D 4C 24 40        - lea rcx,[rsp+40]
-NeptuniaVirtualStars.exe+D0ADE7: E8 39 AC 33 FF        - call NeptuniaVirtualStars.exe+45A25
-NeptuniaVirtualStars.exe+D0ADEC: 48 8B 03              - mov rax,[rbx]
-NeptuniaVirtualStars.exe+D0ADEF: 48 8B CB              - mov rcx,rbx
-NeptuniaVirtualStars.exe+D0ADF2: FF 90 98 00 00 00     - call qword ptr [rax+00000098]
-NeptuniaVirtualStars.exe+D0ADF8: 4C 8B 00              - mov r8,[rax]
-NeptuniaVirtualStars.exe+D0ADFB: 48 8D 54 24 70        - lea rdx,[rsp+70]
-NeptuniaVirtualStars.exe+D0AE00: 48 8B C8              - mov rcx,rax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+D0AE03: 41 FF 50 60           - call qword ptr [r8+60]
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+D0AE07: 48 8B 03              - mov rax,[rbx]
-NeptuniaVirtualStars.exe+D0AE0A: 48 8B CB              - mov rcx,rbx
-NeptuniaVirtualStars.exe+D0AE0D: FF 90 C0 00 00 00     - call qword ptr [rax+000000C0]
-NeptuniaVirtualStars.exe+D0AE13: 90                    - nop 
-NeptuniaVirtualStars.exe+D0AE14: 48 8D 4C 24 40        - lea rcx,[rsp+40]
-NeptuniaVirtualStars.exe+D0AE19: E8 22 74 32 FF        - call NeptuniaVirtualStars.exe+32240
-NeptuniaVirtualStars.exe+D0AE1E: EB 0E                 - jmp NeptuniaVirtualStars.exe+D0AE2E
-NeptuniaVirtualStars.exe+D0AE20: 48 8D 15 D9 69 C0 00  - lea rdx,[NeptuniaVirtualStars.exe+1911800]
-NeptuniaVirtualStars.exe+D0AE27: 33 C9                 - xor ecx,ecx
-NeptuniaVirtualStars.exe+D0AE29: E8 04 7E 31 FF        - call NeptuniaVirtualStars.exe+22C32
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2333</ID>
-              <Description>"Disable Pause"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+456FFB,E8 7D 1F BE FF)
-
-"NeptuniaVirtualStars.exe"+456FFB:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+456FFB:
-  db E8 7D 1F BE FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+456FFB
-
-NeptuniaVirtualStars.exe+456FDC: 84 C0              - test al,al
-NeptuniaVirtualStars.exe+456FDE: 74 0A              - je NeptuniaVirtualStars.exe+456FEA
-NeptuniaVirtualStars.exe+456FE0: 8B D7              - mov edx,edi
-NeptuniaVirtualStars.exe+456FE2: 48 8B CB           - mov rcx,rbx
-NeptuniaVirtualStars.exe+456FE5: E8 CB DF BB FF     - call NeptuniaVirtualStars.exe+14FB5
-NeptuniaVirtualStars.exe+456FEA: 44 0F B6 4C 24 60  - movzx r9d,byte ptr [rsp+60]
-NeptuniaVirtualStars.exe+456FF0: 45 0F B6 C6        - movzx r8d,r14l
-NeptuniaVirtualStars.exe+456FF4: 8B D7              - mov edx,edi
-NeptuniaVirtualStars.exe+456FF6: 48 8B CE           - mov rcx,rsi
-NeptuniaVirtualStars.exe+456FF9: B3 01              - mov bl,01
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+456FFB: E8 7D 1F BE FF     - call NeptuniaVirtualStars.exe+38F7D
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+457000: 84 C0              - test al,al
-NeptuniaVirtualStars.exe+457002: 75 25              - jne NeptuniaVirtualStars.exe+457029
-NeptuniaVirtualStars.exe+457004: E8 82 B4 BB FF     - call NeptuniaVirtualStars.exe+1248B
-NeptuniaVirtualStars.exe+457009: 84 C0              - test al,al
-NeptuniaVirtualStars.exe+45700B: 75 08              - jne NeptuniaVirtualStars.exe+457015
-NeptuniaVirtualStars.exe+45700D: 0F B6 CB           - movzx ecx,bl
-NeptuniaVirtualStars.exe+457010: E8 9F F2 BD FF     - call NeptuniaVirtualStars.exe+362B4
-NeptuniaVirtualStars.exe+457015: E8 0E 39 BD FF     - call NeptuniaVirtualStars.exe+2A928
-NeptuniaVirtualStars.exe+45701A: 84 C0              - test al,al
-NeptuniaVirtualStars.exe+45701C: 75 07              - jne NeptuniaVirtualStars.exe+457025
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2338</ID>
-              <Description>"Disable Teleport Input"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+4588A1,E8 B0 A2 BC FF) // should be unique
-"NeptuniaVirtualStars.exe"+4588A1:
-  db 90 90 90 90 90
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+4588A1:
-  db E8 B0 A2 BC FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+4588A1
-
-NeptuniaVirtualStars.exe+45887A: C6 44 24 20 00        - mov byte ptr [rsp+20],00
-NeptuniaVirtualStars.exe+45887F: 45 33 C0              - xor r8d,r8d
-NeptuniaVirtualStars.exe+458882: 48 8B CF              - mov rcx,rdi
-NeptuniaVirtualStars.exe+458885: 41 8D 51 34           - lea edx,[r9+34]
-NeptuniaVirtualStars.exe+458889: E8 D9 85 BE FF        - call NeptuniaVirtualStars.exe+40E67
-NeptuniaVirtualStars.exe+45888E: 84 C0                 - test al,al
-NeptuniaVirtualStars.exe+458890: 74 54                 - je NeptuniaVirtualStars.exe+4588E6
-NeptuniaVirtualStars.exe+458892: 48 8B 8F 88 1A 00 00  - mov rcx,[rdi+00001A88]
-NeptuniaVirtualStars.exe+458899: E8 2B 35 BC FF        - call NeptuniaVirtualStars.exe+1BDC9
-NeptuniaVirtualStars.exe+45889E: 48 8B C8              - mov rcx,rax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+4588A1: E8 B0 A2 BC FF        - call NeptuniaVirtualStars.exe+22B56
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+4588A6: 48 8B CF              - mov rcx,rdi
-NeptuniaVirtualStars.exe+4588A9: 48 8B D8              - mov rbx,rax
-NeptuniaVirtualStars.exe+4588AC: E8 5A 8C BE FF        - call NeptuniaVirtualStars.exe+4150B
-NeptuniaVirtualStars.exe+4588B1: 48 8B C8              - mov rcx,rax
-NeptuniaVirtualStars.exe+4588B4: 33 D2                 - xor edx,edx
-NeptuniaVirtualStars.exe+4588B6: E8 CB 3B BC FF        - call NeptuniaVirtualStars.exe+1C486
-NeptuniaVirtualStars.exe+4588BB: 45 33 C0              - xor r8d,r8d
-NeptuniaVirtualStars.exe+4588BE: BA 5A 02 00 00        - mov edx,0000025A
-NeptuniaVirtualStars.exe+4588C3: 48 8B C8              - mov rcx,rax
-NeptuniaVirtualStars.exe+4588C6: E8 4D DD BA FF        - call NeptuniaVirtualStars.exe+6618
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2341</ID>
-              <Description>"Freeze Bloom Buffer (?)"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+BAF9C2,E8 A4 E0 46 FF)
-
-"NeptuniaVirtualStars.exe"+BAF9C2:
-  db 90 90 90 90 90
-
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+BAF9C2:
-  db E8 A4 E0 46 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+BAF9C2
-
-NeptuniaVirtualStars.exe+BAF99D: 8D 56 0F              - lea edx,[rsi+0F]
-NeptuniaVirtualStars.exe+BAF9A0: E8 72 23 49 FF        - call NeptuniaVirtualStars.exe+41D17
-NeptuniaVirtualStars.exe+BAF9A5: 48 8B 4F 28           - mov rcx,[rdi+28]
-NeptuniaVirtualStars.exe+BAF9A9: 33 D2                 - xor edx,edx
-NeptuniaVirtualStars.exe+BAF9AB: 48 8B 01              - mov rax,[rcx]
-NeptuniaVirtualStars.exe+BAF9AE: FF 90 60 01 00 00     - call qword ptr [rax+00000160]
-NeptuniaVirtualStars.exe+BAF9B4: 48 8B CF              - mov rcx,rdi
-NeptuniaVirtualStars.exe+BAF9B7: E8 70 4A 49 FF        - call NeptuniaVirtualStars.exe+4442C
-NeptuniaVirtualStars.exe+BAF9BC: 49 8B D7              - mov rdx,r15
-NeptuniaVirtualStars.exe+BAF9BF: 48 8B CF              - mov rcx,rdi
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+BAF9C2: E8 A4 E0 46 FF        - call NeptuniaVirtualStars.exe+1DA6B
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+BAF9C7: 85 C0                 - test eax,eax
-NeptuniaVirtualStars.exe+BAF9C9: 79 2F                 - jns NeptuniaVirtualStars.exe+BAF9FA
-NeptuniaVirtualStars.exe+BAF9CB: 83 3D EE 10 FE 00 01  - cmp dword ptr [NeptuniaVirtualStars.exe+1B90AC0],01
-NeptuniaVirtualStars.exe+BAF9D2: 72 26                 - jb NeptuniaVirtualStars.exe+BAF9FA
-NeptuniaVirtualStars.exe+BAF9D4: 83 3D E1 10 FE 00 01  - cmp dword ptr [NeptuniaVirtualStars.exe+1B90ABC],01
-NeptuniaVirtualStars.exe+BAF9DB: 72 1D                 - jb NeptuniaVirtualStars.exe+BAF9FA
-NeptuniaVirtualStars.exe+BAF9DD: BA D1 3B 00 00        - mov edx,00003BD1
-NeptuniaVirtualStars.exe+BAF9E2: 48 8D 0D 27 97 B8 00  - lea rcx,[NeptuniaVirtualStars.exe+1739110]
-NeptuniaVirtualStars.exe+BAF9E9: E8 84 99 45 FF        - call NeptuniaVirtualStars.exe+9372
-NeptuniaVirtualStars.exe+BAF9EE: 48 8D 0D AB 97 B8 00  - lea rcx,[NeptuniaVirtualStars.exe+17391A0]
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2356</ID>
-              <Description>"Freeze?"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+220644,41 FF 90 38 05 00 00)
-
-"NeptuniaVirtualStars.exe"+220644:
-  db 90 90 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+220644:
-  db 41 FF 90 38 05 00 00
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+220644
-
-NeptuniaVirtualStars.exe+220624: 5D                    - pop rbp
-NeptuniaVirtualStars.exe+220625: C3                    - ret 
-NeptuniaVirtualStars.exe+220626: 48 89 74 24 28        - mov [rsp+28],rsi
-NeptuniaVirtualStars.exe+22062B: 4C 89 74 24 20        - mov [rsp+20],r14
-NeptuniaVirtualStars.exe+220630: E8 43 C3 DE FF        - call NeptuniaVirtualStars.exe+C978
-NeptuniaVirtualStars.exe+220635: 48 85 C0              - test rax,rax
-NeptuniaVirtualStars.exe+220638: 74 11                 - je NeptuniaVirtualStars.exe+22064B
-NeptuniaVirtualStars.exe+22063A: 4C 8B 00              - mov r8,[rax]
-NeptuniaVirtualStars.exe+22063D: 48 8B C8              - mov rcx,rax
-NeptuniaVirtualStars.exe+220640: 41 0F B6 D7           - movzx edx,r15l
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+220644: 41 FF 90 38 05 00 00  - call qword ptr [r8+00000538]
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+22064B: 33 F6                 - xor esi,esi
-NeptuniaVirtualStars.exe+22064D: 48 89 5C 24 58        - mov [rsp+58],rbx
-NeptuniaVirtualStars.exe+220652: 4C 8D B5 80 00 00 00  - lea r14,[rbp+00000080]
-NeptuniaVirtualStars.exe+220659: 83 FE 16              - cmp esi,16
-NeptuniaVirtualStars.exe+22065C: 73 61                 - jae NeptuniaVirtualStars.exe+2206BF
-NeptuniaVirtualStars.exe+22065E: 49 8B 1E              - mov rbx,[r14]
-NeptuniaVirtualStars.exe+220661: 48 85 DB              - test rbx,rbx
-NeptuniaVirtualStars.exe+220664: 74 2F                 - je NeptuniaVirtualStars.exe+220695
-NeptuniaVirtualStars.exe+220666: 48 8B 03              - mov rax,[rbx]
-NeptuniaVirtualStars.exe+220669: 48 8B CB              - mov rcx,rbx
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2357</ID>
-              <Description>"Freeze??"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+4C86FB,E8 B3 CC B7 FF)
-
-"NeptuniaVirtualStars.exe"+4C86FB:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+4C86FB:
-  db E8 B3 CC B7 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+4C86FB
-
-NeptuniaVirtualStars.exe+4C86DC: 85 C0           - test eax,eax
-NeptuniaVirtualStars.exe+4C86DE: 74 2B           - je NeptuniaVirtualStars.exe+4C870B
-NeptuniaVirtualStars.exe+4C86E0: 8B CB           - mov ecx,ebx
-NeptuniaVirtualStars.exe+4C86E2: E8 1D 1B B4 FF  - call NeptuniaVirtualStars.exe+A204
-NeptuniaVirtualStars.exe+4C86E7: 48 8B C8        - mov rcx,rax
-NeptuniaVirtualStars.exe+4C86EA: E8 1C 8E B7 FF  - call NeptuniaVirtualStars.exe+4150B
-NeptuniaVirtualStars.exe+4C86EF: 48 85 C0        - test rax,rax
-NeptuniaVirtualStars.exe+4C86F2: 74 0C           - je NeptuniaVirtualStars.exe+4C8700
-NeptuniaVirtualStars.exe+4C86F4: 40 0F B6 D7     - movzx edx,dil
-NeptuniaVirtualStars.exe+4C86F8: 48 8B C8        - mov rcx,rax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+4C86FB: E8 B3 CC B7 FF  - call NeptuniaVirtualStars.exe+453B3
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+4C8700: FF C3           - inc ebx
-NeptuniaVirtualStars.exe+4C8702: E8 88 85 B4 FF  - call NeptuniaVirtualStars.exe+10C8F
-NeptuniaVirtualStars.exe+4C8707: 3B D8           - cmp ebx,eax
-NeptuniaVirtualStars.exe+4C8709: 72 D5           - jb NeptuniaVirtualStars.exe+4C86E0
-NeptuniaVirtualStars.exe+4C870B: 0F 28 C6        - movaps xmm0,xmm6
-NeptuniaVirtualStars.exe+4C870E: E8 D7 D9 B4 FF  - call NeptuniaVirtualStars.exe+160EA
-NeptuniaVirtualStars.exe+4C8713: 0F 28 74 24 20  - movaps xmm6,[rsp+20]
-NeptuniaVirtualStars.exe+4C8718: B0 01           - mov al,01
-NeptuniaVirtualStars.exe+4C871A: 48 8B 5C 24 40  - mov rbx,[rsp+40]
-NeptuniaVirtualStars.exe+4C871F: 48 83 C4 30     - add rsp,30
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2347</ID>
-              <Description>"Freeze Game"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+745D11,FF 50 20 EB 35)
-
-"NeptuniaVirtualStars.exe"+745D11:
-  db 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+745D11:
-  db FF 50 20
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+745D11
-
-NeptuniaVirtualStars.exe+745CEC: 83 7C 24 20 00  - cmp dword ptr [rsp+20],00
-NeptuniaVirtualStars.exe+745CF1: 74 10           - je NeptuniaVirtualStars.exe+745D03
-NeptuniaVirtualStars.exe+745CF3: 83 7C 24 20 01  - cmp dword ptr [rsp+20],01
-NeptuniaVirtualStars.exe+745CF8: 74 1C           - je NeptuniaVirtualStars.exe+745D16
-NeptuniaVirtualStars.exe+745CFA: 83 7C 24 20 02  - cmp dword ptr [rsp+20],02
-NeptuniaVirtualStars.exe+745CFF: 74 30           - je NeptuniaVirtualStars.exe+745D31
-NeptuniaVirtualStars.exe+745D01: EB 48           - jmp NeptuniaVirtualStars.exe+745D4B
-NeptuniaVirtualStars.exe+745D03: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D08: 48 8B 48 08     - mov rcx,[rax+08]
-NeptuniaVirtualStars.exe+745D0C: 48 8B 44 24 28  - mov rax,[rsp+28]
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+745D11: FF 50 20        - call qword ptr [rax+20]
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+745D14: EB 35           - jmp NeptuniaVirtualStars.exe+745D4B
-NeptuniaVirtualStars.exe+745D16: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D1B: 8B 50 14        - mov edx,[rax+14]
-NeptuniaVirtualStars.exe+745D1E: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D23: 48 8B 48 08     - mov rcx,[rax+08]
-NeptuniaVirtualStars.exe+745D27: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D2C: FF 50 20        - call qword ptr [rax+20]
-NeptuniaVirtualStars.exe+745D2F: EB 1A           - jmp NeptuniaVirtualStars.exe+745D4B
-NeptuniaVirtualStars.exe+745D31: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D36: 48 8B 50 18     - mov rdx,[rax+18]
-}
-</AssemblerScript>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Toggle Activation</Action>
-                  <Keys/>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2350</ID>
-              <Description>"Freeze World?"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+40E474,E8 C0 90 C1 FF)
-
-"NeptuniaVirtualStars.exe"+40E474:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+40E474:
-  db E8 C0 90 C1 FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+40E474
-
-NeptuniaVirtualStars.exe+40E45D: 84 C0           - test al,al
-NeptuniaVirtualStars.exe+40E45F: 75 77           - jne NeptuniaVirtualStars.exe+40E4D8
-NeptuniaVirtualStars.exe+40E461: 8B 4F 64        - mov ecx,[rdi+64]
-NeptuniaVirtualStars.exe+40E464: 8B 47 58        - mov eax,[rdi+58]
-NeptuniaVirtualStars.exe+40E467: 85 C1           - test ecx,eax
-NeptuniaVirtualStars.exe+40E469: 74 1C           - je NeptuniaVirtualStars.exe+40E487
-NeptuniaVirtualStars.exe+40E46B: F7 D0           - not eax
-NeptuniaVirtualStars.exe+40E46D: 23 C1           - and eax,ecx
-NeptuniaVirtualStars.exe+40E46F: 33 C9           - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E471: 89 47 64        - mov [rdi+64],eax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+40E474: E8 C0 90 C1 FF  - call NeptuniaVirtualStars.exe+27539
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+40E479: 33 C9           - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E47B: E8 B9 A3 C2 FF  - call NeptuniaVirtualStars.exe+38839
-NeptuniaVirtualStars.exe+40E480: E8 D9 20 C1 FF  - call NeptuniaVirtualStars.exe+2055E
-NeptuniaVirtualStars.exe+40E485: EB 51           - jmp NeptuniaVirtualStars.exe+40E4D8
-NeptuniaVirtualStars.exe+40E487: 0B C1           - or eax,ecx
-NeptuniaVirtualStars.exe+40E489: B1 01           - mov cl,01
-NeptuniaVirtualStars.exe+40E48B: 89 47 64        - mov [rdi+64],eax
-NeptuniaVirtualStars.exe+40E48E: E8 A6 90 C1 FF  - call NeptuniaVirtualStars.exe+27539
-NeptuniaVirtualStars.exe+40E493: 33 C9           - xor ecx,ecx
-NeptuniaVirtualStars.exe+40E495: E8 6A BD BF FF  - call NeptuniaVirtualStars.exe+A204
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2348</ID>
-              <Description>"Keep Mouse on Focus"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+1321EA,75 2A 48 8D 4C 24 4C)
-
-"NeptuniaVirtualStars.exe"+1321EA:
-  db 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+1321EA:
-  db 75 2A
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+1321EA
-
-NeptuniaVirtualStars.exe+1321C6: 2B C2                 - sub eax,edx
-NeptuniaVirtualStars.exe+1321C8: D1 F8                 - sar eax,1
-NeptuniaVirtualStars.exe+1321CA: 03 F8                 - add edi,eax
-NeptuniaVirtualStars.exe+1321CC: EB 15                 - jmp NeptuniaVirtualStars.exe+1321E3
-NeptuniaVirtualStars.exe+1321CE: 3D 00 0A 00 00        - cmp eax,00000A00
-NeptuniaVirtualStars.exe+1321D3: 75 0E                 - jne NeptuniaVirtualStars.exe+1321E3
-NeptuniaVirtualStars.exe+1321D5: 81 F9 38 04 00 00     - cmp ecx,00000438
-NeptuniaVirtualStars.exe+1321DB: 75 06                 - jne NeptuniaVirtualStars.exe+1321E3
-NeptuniaVirtualStars.exe+1321DD: 81 C7 40 01 00 00     - add edi,00000140
-NeptuniaVirtualStars.exe+1321E3: 80 BD F8 03 00 00 01  - cmp byte ptr [rbp+000003F8],01
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+1321EA: 75 2A                 - jne NeptuniaVirtualStars.exe+132216
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+1321EC: 48 8D 4C 24 4C        - lea rcx,[rsp+4C]
-NeptuniaVirtualStars.exe+1321F1: FF 15 D1 0C 8C 0B     - call qword ptr [NeptuniaVirtualStars.exe+B9F2EC8]
-NeptuniaVirtualStars.exe+1321F7: 8B D6                 - mov edx,esi
-NeptuniaVirtualStars.exe+1321F9: 8B CF                 - mov ecx,edi
-NeptuniaVirtualStars.exe+1321FB: FF 15 D7 0C 8C 0B     - call qword ptr [NeptuniaVirtualStars.exe+B9F2ED8]
-NeptuniaVirtualStars.exe+132201: 33 C9                 - xor ecx,ecx
-NeptuniaVirtualStars.exe+132203: FF 15 D7 0C 8C 0B     - call qword ptr [NeptuniaVirtualStars.exe+B9F2EE0]
-NeptuniaVirtualStars.exe+132209: 85 C0                 - test eax,eax
-NeptuniaVirtualStars.exe+13220B: 7F F4                 - jg NeptuniaVirtualStars.exe+132201
-NeptuniaVirtualStars.exe+13220D: C6 85 F8 03 00 00 00  - mov byte ptr [rbp+000003F8],00
-}
-</AssemblerScript>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Toggle Activation</Action>
-                  <Keys/>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2353</ID>
-              <Description>"Disable compare code that pauses the game"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+745CEC,83 7C 24 20 00 74 10 83 7C 24 20 01 74 1C)
-
-"NeptuniaVirtualStars.exe"+745CEC:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+745CEC:
-  db 83 7C 24 20 00
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+745CEC
-
-NeptuniaVirtualStars.exe+745CC6: 8B 44 24 24     - mov eax,[rsp+24]
-NeptuniaVirtualStars.exe+745CCA: FF C8           - dec eax
-NeptuniaVirtualStars.exe+745CCC: 48 98           - cdqe 
-NeptuniaVirtualStars.exe+745CCE: 48 6B C0 28     - imul rax,rax,28
-NeptuniaVirtualStars.exe+745CD2: 48 8B 4C 24 40  - mov rcx,[rsp+40]
-NeptuniaVirtualStars.exe+745CD7: 48 03 41 38     - add rax,[rcx+38]
-NeptuniaVirtualStars.exe+745CDB: 48 89 44 24 28  - mov [rsp+28],rax
-NeptuniaVirtualStars.exe+745CE0: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745CE5: 8B 40 10        - mov eax,[rax+10]
-NeptuniaVirtualStars.exe+745CE8: 89 44 24 20     - mov [rsp+20],eax
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+745CEC: 83 7C 24 20 00  - cmp dword ptr [rsp+20],00
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+745CF1: 74 10           - je NeptuniaVirtualStars.exe+745D03
-NeptuniaVirtualStars.exe+745CF3: 83 7C 24 20 01  - cmp dword ptr [rsp+20],01
-NeptuniaVirtualStars.exe+745CF8: 74 1C           - je NeptuniaVirtualStars.exe+745D16
-NeptuniaVirtualStars.exe+745CFA: 83 7C 24 20 02  - cmp dword ptr [rsp+20],02
-NeptuniaVirtualStars.exe+745CFF: 74 30           - je NeptuniaVirtualStars.exe+745D31
-NeptuniaVirtualStars.exe+745D01: EB 48           - jmp NeptuniaVirtualStars.exe+745D4B
-NeptuniaVirtualStars.exe+745D03: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D08: 48 8B 48 08     - mov rcx,[rax+08]
-NeptuniaVirtualStars.exe+745D0C: 48 8B 44 24 28  - mov rax,[rsp+28]
-NeptuniaVirtualStars.exe+745D11: FF 50 20        - call qword ptr [rax+20]
-}
-</AssemblerScript>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>2558</ID>
-              <Description>"Hide Background (Crashes the game)"</Description>
-              <LastState/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
-
-assert("NeptuniaVirtualStars.exe"+766F8E,E8 5E 8E 8C FF)
-
-"NeptuniaVirtualStars.exe"+766F8E:
-  db 90 90 90 90 90
-
-[DISABLE]
-
-"NeptuniaVirtualStars.exe"+766F8E:
-  db E8 5E 8E 8C FF
-
-{
-// ORIGINAL CODE - INJECTION POINT: NeptuniaVirtualStars.exe+766F8E
-
-NeptuniaVirtualStars.exe+766F50: E8 66 FE 89 FF           - call NeptuniaVirtualStars.exe+6DBB
-NeptuniaVirtualStars.exe+766F55: E9 3A 04 00 00           - jmp NeptuniaVirtualStars.exe+767394
-NeptuniaVirtualStars.exe+766F5A: 48 8B 54 24 20           - mov rdx,[rsp+20]
-NeptuniaVirtualStars.exe+766F5F: 48 8B 8C 24 50 02 00 00  - mov rcx,[rsp+00000250]
-NeptuniaVirtualStars.exe+766F67: E8 90 2E 8C FF           - call NeptuniaVirtualStars.exe+29DFC
-NeptuniaVirtualStars.exe+766F6C: 48 89 44 24 20           - mov [rsp+20],rax
-NeptuniaVirtualStars.exe+766F71: 48 8B 44 24 20           - mov rax,[rsp+20]
-NeptuniaVirtualStars.exe+766F76: 48 89 84 24 B8 01 00 00  - mov [rsp+000001B8],rax
-NeptuniaVirtualStars.exe+766F7E: 48 8B 94 24 B8 01 00 00  - mov rdx,[rsp+000001B8]
-NeptuniaVirtualStars.exe+766F86: 48 8B 8C 24 50 02 00 00  - mov rcx,[rsp+00000250]
-// ---------- INJECTING HERE ----------
-NeptuniaVirtualStars.exe+766F8E: E8 5E 8E 8C FF           - call NeptuniaVirtualStars.exe+2FDF1
-// ---------- DONE INJECTING  ----------
-NeptuniaVirtualStars.exe+766F93: E9 FC 03 00 00           - jmp NeptuniaVirtualStars.exe+767394
-NeptuniaVirtualStars.exe+766F98: 48 8B 54 24 20           - mov rdx,[rsp+20]
-NeptuniaVirtualStars.exe+766F9D: 48 8B 8C 24 50 02 00 00  - mov rcx,[rsp+00000250]
-NeptuniaVirtualStars.exe+766FA5: E8 52 2E 8C FF           - call NeptuniaVirtualStars.exe+29DFC
-NeptuniaVirtualStars.exe+766FAA: 48 89 44 24 20           - mov [rsp+20],rax
-NeptuniaVirtualStars.exe+766FAF: 48 8B 44 24 20           - mov rax,[rsp+20]
-NeptuniaVirtualStars.exe+766FB4: 48 89 84 24 C0 01 00 00  - mov [rsp+000001C0],rax
-NeptuniaVirtualStars.exe+766FBC: 48 8B 94 24 C0 01 00 00  - mov rdx,[rsp+000001C0]
-NeptuniaVirtualStars.exe+766FC4: 48 8B 8C 24 50 02 00 00  - mov rcx,[rsp+00000250]
-NeptuniaVirtualStars.exe+766FCC: E8 14 6C 8D FF           - call NeptuniaVirtualStars.exe+3DBE5
-}
-</AssemblerScript>
-            </CheatEntry>
-          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -21239,11 +19954,458 @@ NeptuniaVirtualStars.exe+766FCC: E8 14 6C 8D FF           - call NeptuniaVirtual
         <Byte>F2</Byte>
       </After>
     </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+33433</Description>
+      <AddressString>NeptuniaVirtualStars.exe+791F85</AddressString>
+      <Before>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>4C</Byte>
+        <Byte>24</Byte>
+        <Byte>60</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>A9</Byte>
+        <Byte>14</Byte>
+        <Byte>8A</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>EB</Byte>
+        <Byte>8E</Byte>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of jmp NeptuniaVirtualStars.exe+A3A794</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3A3F0</AddressString>
+      <Before>
+        <Byte>AA</Byte>
+        <Byte>B8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>E9</Byte>
+        <Byte>9F</Byte>
+        <Byte>03</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>57</Byte>
+        <Byte>C0</Byte>
+        <Byte>41</Byte>
+        <Byte>B8</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of jna NeptuniaVirtualStars.exe+A3A5E6</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3A5E1</AddressString>
+      <Before>
+        <Byte>C0</Byte>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>2F</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>76</Byte>
+        <Byte>03</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>CC</Byte>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of jna NeptuniaVirtualStars.exe+A3A674</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3A66F</AddressString>
+      <Before>
+        <Byte>C0</Byte>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>2F</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>76</Byte>
+        <Byte>03</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>CC</Byte>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of jb NeptuniaVirtualStars.exe+A3A6FB</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3A782</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>44</Byte>
+        <Byte>3B</Byte>
+        <Byte>C7</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>82</Byte>
+        <Byte>73</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of comiss xmm0,[NeptuniaVirtualStars.exe+110882C]</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3A928</AddressString>
+      <Before>
+        <Byte>81</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>2F</Byte>
+        <Byte>05</Byte>
+        <Byte>FD</Byte>
+        <Byte>DE</Byte>
+        <Byte>6C</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>81</Byte>
+        <Byte>44</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movss xmm0,[rcx+14]</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3A910</AddressString>
+      <Before>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>41</Byte>
+        <Byte>14</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>C2</Byte>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of jmp NeptuniaVirtualStars.exe+45AC5</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3AA53</AddressString>
+      <Before>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+        <Byte>20</Byte>
+        <Byte>5B</Byte>
+      </Before>
+      <Actual>
+        <Byte>E9</Byte>
+        <Byte>6D</Byte>
+        <Byte>B0</Byte>
+        <Byte>60</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+2F67B</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3AA46</AddressString>
+      <Before>
+        <Byte>89</Byte>
+        <Byte>30</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>30</Byte>
+        <Byte>4C</Byte>
+        <Byte>5F</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CB</Byte>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+1FF2D</Description>
+      <AddressString>NeptuniaVirtualStars.exe+A3AB60</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CB</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>C8</Byte>
+        <Byte>53</Byte>
+        <Byte>5E</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>03</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+30F0D</Description>
+      <AddressString>NeptuniaVirtualStars.exe+450602</AddressString>
+      <Before>
+        <Byte>29</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>EB</Byte>
+        <Byte>62</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>06</Byte>
+        <Byte>09</Byte>
+        <Byte>BE</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>CE</Byte>
+        <Byte>F3</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+45C37</Description>
+      <AddressString>NeptuniaVirtualStars.exe+45064D</AddressString>
+      <Before>
+        <Byte>86</Byte>
+        <Byte>14</Byte>
+        <Byte>29</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>E5</Byte>
+        <Byte>55</Byte>
+        <Byte>BF</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>86</Byte>
+        <Byte>10</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+3DC03</Description>
+      <AddressString>NeptuniaVirtualStars.exe+45065F</AddressString>
+      <Before>
+        <Byte>33</Byte>
+        <Byte>D2</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CE</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>9F</Byte>
+        <Byte>D5</Byte>
+        <Byte>BE</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>E8</Byte>
+        <Byte>A4</Byte>
+        <Byte>08</Byte>
+        <Byte>BE</Byte>
+        <Byte>FF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call NeptuniaVirtualStars.exe+30F0D</Description>
+      <AddressString>NeptuniaVirtualStars.exe+450664</AddressString>
+      <Before>
+        <Byte>E8</Byte>
+        <Byte>9F</Byte>
+        <Byte>D5</Byte>
+        <Byte>BE</Byte>
+        <Byte>FF</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>A4</Byte>
+        <Byte>08</Byte>
+        <Byte>BE</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>CE</Byte>
+        <Byte>F3</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of mulss xmm6,xmm11</Description>
+      <AddressString>NeptuniaVirtualStars.exe+5A1A54</AddressString>
+      <Before>
+        <Byte>B0</Byte>
+        <Byte>58</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>59</Byte>
+        <Byte>F3</Byte>
+      </Actual>
+      <After>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>29</Byte>
+        <Byte>7C</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of mulss xmm6,xmm11</Description>
+      <AddressString>NeptuniaVirtualStars.exe+5A1A7E</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>F8</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>41</Byte>
+        <Byte>0F</Byte>
+        <Byte>59</Byte>
+        <Byte>F3</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>C6</Byte>
+        <Byte>E8</Byte>
+        <Byte>40</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of call NeptuniaVirtualStars.exe+E4D0</Description>
+      <AddressString>NeptuniaVirtualStars.exe+51A28E</AddressString>
+      <Before>
+        <Byte>75</Byte>
+        <Byte>1A</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CE</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>3D</Byte>
+        <Byte>42</Byte>
+        <Byte>AF</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>CE</Byte>
+        <Byte>E8</Byte>
+        <Byte>48</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of call NeptuniaVirtualStars.exe+33398</Description>
+      <AddressString>NeptuniaVirtualStars.exe+97D9A7</AddressString>
+      <Before>
+        <Byte>C6</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>20</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>EC</Byte>
+        <Byte>59</Byte>
+        <Byte>6B</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>C7</Byte>
+        <Byte>06</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
   </CheatCodes>
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>speedModifier</Name>
-      <Address>2138E580000</Address>
+      <Address>218E97F0000</Address>
     </SymbolEntry>
     <SymbolEntry>
       <Name>base</Name>
