@@ -23,8 +23,6 @@ Current problems:
 
 - Pausing the world also seems to mess with the game's temporal anti-aliasing solution. It is hard for me to pinpoint what exactly is happening but there is no denying that the game gets more aliased when frozen.
 
-- Freezing the world messes up the temporal anti-aliasing somehow, hard to pinpoint what exactly is the source of the problem but there is no denying that the game gets aliased when it is frozen.
-
 - Turning this into something easier to use than a cheat table would be nice, but getting this working properly is the top priority.
 
 
