@@ -1,4 +1,4 @@
-Neptunia™ Virtual Stars Camera Tools (Pre-Release)
+# Neptunia™ Virtual Stars Camera Tools
 
 Requires the latest Cheat Engine release. Compatible with the April 6th update, which is the latest Steam version as of the day this is being written.
 
